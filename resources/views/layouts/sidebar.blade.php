@@ -1,9 +1,11 @@
 <aside id="sidebar-wrapper">
     <div class="sidebar-brand">
-        <a href="index.html">Stisla</a>
+        <img src="{{ asset('../assets/img/polinema.png') }}" alt="logo" width="30">
+        <a href="index.html" class="ml-2"
+            style="font-size: 16px; font-weight:700; margin-bottom:-10px; letter-spacing: 0px;">SIM-TA</a>
     </div>
     <div class="sidebar-brand sidebar-brand-sm">
-        <a href="index.html">St</a>
+        <img src="{{ asset('../assets/img/polinema.png') }}" alt="logo" width="40">
     </div>
     <ul class="sidebar-menu">
 

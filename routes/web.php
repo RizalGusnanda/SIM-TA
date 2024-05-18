@@ -31,6 +31,10 @@ Route::get('/', function () {
     return view('auth/login');
 });
 
+Route::get('/log-bimbingan', function(){
+    return view('logBimbingan');
+});
+
 Route::group(['middleware' => ['auth', 'verified']], function () {
     Route::get('/dashboard', function () {
         return view('home', ['users' => User::get(),]);
@@ -48,6 +52,7 @@ Route::group(['middleware' => ['auth', 'verified']], function () {
         Route::resource('menu-group', MenuGroupController::class);
         Route::resource('menu-item', MenuItemController::class);
     });
+
     Route::group(['prefix' => 'role-and-permission'], function () {
         //role
         Route::resource('role', RoleController::class);

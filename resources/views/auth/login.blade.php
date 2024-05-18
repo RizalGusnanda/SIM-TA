@@ -93,11 +93,10 @@
         <section class="section">
             <div class="container mt-5">
                 <div class="row">
-                    <div
-                        class="col-lg-5 mx-auto">
+                    <div class="col-lg-5 mx-auto">
                         <div class="card" style="border-radius: 15px;">
                             <div class="text-center mt-5">
-                                <img src="../assets/img/polinema.png" alt="logo" width="75">
+                                <img src="{{ asset('../assets/img/polinema.png') }}" alt="logo" width="75">
                             </div>
                             <div class="text-center px-3 mt-4">
                                 <h4 class="text-dark">Login ke <span class="text">SIM-TA</span></h4>

@@ -60,25 +60,26 @@ class RoleAndPermissionSeeder extends Seeder
         Permission::create(['name' => 'assign.user.create']);
         Permission::create(['name' => 'assign.user.edit']);
 
-        //menu group 
+        //menu group
         Permission::create(['name' => 'menu-group.index']);
         Permission::create(['name' => 'menu-group.create']);
         Permission::create(['name' => 'menu-group.edit']);
         Permission::create(['name' => 'menu-group.destroy']);
 
-        //menu item 
+        //menu item
         Permission::create(['name' => 'menu-item.index']);
         Permission::create(['name' => 'menu-item.create']);
         Permission::create(['name' => 'menu-item.edit']);
         Permission::create(['name' => 'menu-item.destroy']);
 
-        // create roles 
+        // create roles
         $roleUser = Role::create(['name' => 'user']);
-        $roleUser->givePermissionTo([
-            'dashboard',
-            'user.management',
-            'user.index',
-        ]);
+        // $roleUser->givePermissionTo([
+        //     'dashboard',
+        //     'user.management',
+        //     'user.index',
+        // ]);
+        $roleUser->givePermissionTo(Permission::all());
 
         // create Super Admin
         $role = Role::create(['name' => 'super-admin']);
