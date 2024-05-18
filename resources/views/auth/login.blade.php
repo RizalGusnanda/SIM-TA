@@ -94,7 +94,7 @@
             <div class="container mt-5">
                 <div class="row">
                     <div
-                        class="col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-6 offset-lg-3 col-xl-5 offset-xl-4">
+                        class="col-lg-5 mx-auto">
                         <div class="card" style="border-radius: 15px;">
                             <div class="text-center mt-5">
                                 <img src="../assets/img/polinema.png" alt="logo" width="75">
