@@ -26,17 +26,15 @@
                 <div class="row">
                     <div
                         class="col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4">
-                        <div class="login-brand">
-                            <img src="../assets/img/stisla-fill.svg" alt="logo" width="100"
-                                class="shadow-light rounded-circle">
-                        </div>
-
-                        <div class="card card-primary">
+                        <div class="card mt-5">
+                            <div class="login-brand">
+                                <img src="../assets/img/polinema.png" alt="logo" width="75">
+                            </div>
                             <div class="card-header">
-                                <h4>Forgot Password</h4>
+                                <h4>Lupa Password</h4>
                             </div>
                             <div class="card-body">
-                                <p>We will send a link to reset your password</p>
+                                <p>Kami akan mengirimkan link untuk mengatur ulang password Anda</p>
                                 @if (session('status'))
                                     <div class="alert alert-success" role="alert">
                                         {{ session('status') }}
@@ -47,7 +45,7 @@
                                     @csrf
 
                                     <div class="form-group">
-                                        <label class="font-weight-bold text-uppercase">Email Address</label>
+                                        <label class="font-weight-bold text-uppercase">Email</label>
                                         <input id="email" type="email"
                                             class="form-control @error('email') is-invalid @enderror" name="email"
                                             value="{{ old('email') }}" required autocomplete="email" autofocus
@@ -64,9 +62,6 @@
                                         Link</button>
                                 </form>
                             </div>
-                        </div>
-                        <div class="simple-footer">
-                            Copyright &copy; Stisla 2018
                         </div>
                     </div>
                 </div>
