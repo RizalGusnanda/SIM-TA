@@ -31,9 +31,9 @@ Route::get('/', function () {
     return view('auth/login');
 });
 
-Route::get('/log-bimbingan', function(){
+Route::get('/pra-seminar-proposal', function(){
     return view('logBimbingan');
-});
+})->name('pra-seminar-proposal');
 
 Route::group(['middleware' => ['auth', 'verified']], function () {
     Route::get('/dashboard', function () {

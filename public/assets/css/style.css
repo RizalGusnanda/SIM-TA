@@ -112,6 +112,15 @@ a:not(.btn-social-icon):not(.btn-social):not(.page-link) .fab {
     background-color: #191d21 !important;
 }
 
+.bg-modal {
+    background-color: #f9fafb !important;
+}
+
+.with-underline {
+    border-bottom: 1px solid #E7E8E9;
+    padding-bottom: 3px;
+}
+
 .text-button-sim {
     font-size: 14px !important;
     font-weight: 600 !important;
@@ -791,6 +800,9 @@ select.form-control:not([size]):not([multiple]) {
 .alert.alert-dark {
     background-color: #191d21;
 }
+.alert.alert-white {
+    background-color: #FFFFFF;
+}
 
 /* 3.5 Card */
 .card {
@@ -1348,7 +1360,6 @@ table tr:hover .table-links {
 
 .modal-header {
     border-bottom: none;
-    padding-bottom: 5px;
 }
 .modal-header h5 {
     font-size: 18px;
@@ -1518,6 +1529,10 @@ table tr:hover .table-links {
 }
 .badge.badge-dark {
     background-color: #191d21;
+}
+.badge.badge-online {
+    background-color: #E0ECFC;
+    color: #11468F;
 }
 
 h1 .badge {

@@ -8,36 +8,47 @@
         <img src="{{ asset('../assets/img/polinema.png') }}" alt="logo" width="40">
     </div>
     <ul class="sidebar-menu">
-
-        <li class="menu-header">Starter</li>
         <li>
-            <a class="nav-link" href="/home"><i class="far fa-square"></i> <span>Blank
-                    Page</span></a>
+            <a class="nav-link" href="/home"><img src="{{ asset('../assets/img/sidebar/darhboard.png') }}" width="25" style="margin-right: 10px;"> <span class="text-dark">Dashboard</span></a>
         </li>
         <li class="nav-item dropdown">
-            <a href="#" class="nav-link has-dropdown"><i class="fas fa-th-large"></i>
-                <span>User Management</span></a>
+            <a href="#" class="nav-link has-dropdown"><img src="{{ asset('../assets/img/sidebar/Folder_dublicate.png') }}" width="25" style="margin-right: 10px;">
+                <span class="text-dark">Skripsi</span></a>
             <ul class="dropdown-menu">
-                <li><a class="nav-link " href="{{ route('user.index') }}">Users List</a></li>
+                <li><a class="nav-link text-dark" href="{{ route('user.index') }}">Proposal</a></li>
+                <li><a class="nav-link text-dark" href="{{ route('user.index') }}">Laporan Skripsi</a></li>
             </ul>
         </li>
         <li class="nav-item dropdown">
-            <a href="#" class="nav-link has-dropdown"><i class="fas fa-th"></i>
-                <span>Role and Permission</span></a>
+            <a href="#" class="nav-link has-dropdown"><img src="{{ asset('../assets/img/sidebar/File_dock_search.png') }}" width="25" style="margin-right: 10px;">
+                <span class="text-dark">Informasi Dosen</span></a>
             <ul class="dropdown-menu">
-                <li><a class="nav-link " href="{{ route('role.index') }}">Role</a></li>
-                <li><a class="nav-link " href="{{ route('permission.index') }}">Permission</a></li>
-                <li><a class="nav-link " href="{{ route('assign.index') }}">Permission To Role</a></li>
-                <li><a class="nav-link " href="{{ route('assign.user.index') }}">User To Role</a></li>
+                <li><a class="nav-link text-dark" href="{{ route('user.index') }}">Dosen Pembimbing</a></li>
+                <li><a class="nav-link text-dark" href="{{ route('user.index') }}">Usulan Topik Dosen</a></li>
             </ul>
         </li>
         <li class="nav-item dropdown">
-            <a href="#" class="nav-link has-dropdown"><i class="fas fa-th-list"></i>
-                <span>Menu Management</span></a>
+            <a href="#" class="nav-link has-dropdown"><img src="{{ asset('../assets/img/sidebar/Desk_alt.png') }}" width="25" style="margin-right: 10px;">
+                <span class="text-dark">Log Bimbingan</span></a>
             <ul class="dropdown-menu">
-                <li><a class="nav-link " href="{{ route('menu-group.index') }}">Menu Group</a></li>
-                <li><a class="nav-link " href="{{ route('menu-item.index') }}">Menu Item</a></li>
+                <li><a class="nav-link text-dark" href="{{ route('pra-seminar-proposal') }}">Pra Seminar Proposal</a></li>
+                <li><a class="nav-link text-dark" href="{{ route('user.index') }}">Sidang Skirpsi</a></li>
             </ul>
+        </li>
+        <li>
+            <a class="nav-link" href="/profile"><img src="{{ asset('../assets/img/sidebar/User_alt.png') }}" width="25" style="margin-right: 10px;"><span class="text-dark">Profile</span></a>
+        </li>
+        <li>
+            <a class="nav-link" href="/faq"><img src="{{ asset('../assets/img/sidebar/Question.png') }}" width="25" style="margin-right: 10px;"> <span class="text-dark">FAQ</span></a>
+        </li>
+        <li>
+            <a class="nav-link" href="{{ route('logout') }}"
+                onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                <img src="{{ asset('../assets/img/sidebar/Sign_out_circle.png') }}" width="25" style="margin-right: 10px;">  <span class="text-dark">Keluar</span>
+            </a>
+            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                @csrf
+            </form>
         </li>
     </ul>
 
