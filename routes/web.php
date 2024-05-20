@@ -35,6 +35,10 @@ Route::get('/pra-seminar-proposal', function(){
     return view('logBimbingan');
 })->name('pra-seminar-proposal');
 
+Route::get('/profil', function(){
+    return view('profile');
+})->name('profil');
+
 Route::group(['middleware' => ['auth', 'verified']], function () {
     Route::get('/dashboard', function () {
         return view('home', ['users' => User::get(),]);
