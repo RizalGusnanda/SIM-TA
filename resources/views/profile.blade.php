@@ -410,8 +410,8 @@
                                         </div>
                                     </div>
                                     <div class="text-right">
-                                        <button type="button" class="btn btn-primary px-5 mt-5"
-                                            style="margin-left: auto; width:200px;" id="btnSimpanNotif">Simpan</button>
+                                        <button type="button" class="btn btn-primary px-5 mt-5" style="width:200px;"
+                                            id="btnSimpanNotif">Simpan</button>
                                     </div>
                                 </div>
                             </div>

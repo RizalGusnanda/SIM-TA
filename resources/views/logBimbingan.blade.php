@@ -104,6 +104,91 @@
     </div>
 </div>
 
+<!-- Modal Lihat Detail LOG DOSEN Bimbingan -->
+<div class="modal fade" id="lihatDetailLogBimbinganModal" tabindex="-1" role="dialog"
+    aria-labelledby="lihatDetailBimbinganModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header d-flex align-items-center justify-content-between border-bottom pb-4">
+                <h6 class="modal-title text-dark" id="lihatDetailLogBimbinganModalLabel">Detail Log Bimbingan</h6>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group row with-underline">
+                    <label for="detailLogMahasiswa" class="col-sm-4 col-form-label text-dark">Dosen
+                        Nama Mahasiswa:</label>
+                    <div class="col-sm-8">
+                        <p id="detailLogMahasiswa" class="form-control-plaintext"></p>
+                    </div>
+                </div>
+                <div class="form-group row with-underline">
+                    <label for="detailWaktuTanggalMahasiswa" class="col-sm-4 col-form-label text-dark">Waktu dan
+                        Waktu dan Tanggal:</label>
+                    <div class="col-sm-8">
+                        <p id="detailWaktuTanggalMahasiswa" class="form-control-plaintext"></p>
+                    </div>
+                </div>
+                <div class="form-group row with-underline">
+                    <label for="detailMetodeBimbinganMahasiswa" class="col-sm-4 col-form-label text-dark">Metode
+                        Metode Bimbingan:</label>
+                    <div class="col-sm-8">
+                        <span id="detailMetodeBimbinganMahasiswa" class="badge"></span>
+                    </div>
+                </div>
+                <div class="form-group row with-underline">
+                    <label for="detailTopikMahasiswa" class="col-sm-4 col-form-label text-dark">Topik:</label>
+                    <div class="col-sm-8">
+                        <p id="detailTopikMahasiswa" class="form-control-plaintext"></p>
+                    </div>
+                </div>
+                <div class="form-group row with-underline">
+                    <label for="detailDeskripsiMahasiswa" class="col-sm-4 col-form-label text-dark">Deskripsi:</label>
+                    <div class="col-sm-8">
+                        <p id="detailDeskripsiMahasiswa" class="form-control-plaintext"></p>
+                    </div>
+                </div>
+                <div class="form-group row with-underline">
+                    <label for="detailDeskripsi" class="col-sm-4 col-form-label text-dark">Status Bimgingan:</label>
+                    <div class="col-sm-8 d-flex align-items-center">
+                        <div class="form-check mr-3">
+                            <input type="radio" id="statusDiterima" name="statusBimbingan" value="diterima"
+                                class="form-check-input">
+                            <label for="statusDiterima" class="form-check-label text-success">Diterima</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" id="statusDitolak" name="statusBimbingan" value="ditolak"
+                                class="form-check-input">
+                            <label for="statusDitolak" class="form-check-label text-danger">Ditolak</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row with-underline">
+                    <label for="detailNilaiMahasiswa" class="col-sm-4 col-form-label text-dark">Nilai:</label>
+                    <div class="col-sm-8">
+                        <input class="form-control form-information" type="text"
+                            placeholder="Beri Penilaian Pada Bimbingan Mahasiswa">
+                    </div>
+                </div>
+                <div class="form-group row with-underline">
+                    <label for="detailKomentar" class="col-sm-4 col-form-label text-dark">Komentar:</label>
+                    <div class="col-sm-8">
+                        <input class="form-control form-information" type="text"
+                            placeholder="Beri Komentar Pada Bimbingan Mahasiswa">
+                    </div>
+                </div>
+                <div class="text-right mt-3">
+                    <button type="button" class="btn px-5"
+                        style="width:130px;  border: 1px solid #11468F; color:#11468F;" id="">Batal</button>
+                    <button type="button" class="btn btn-primary ml-2" style="width:130px;"
+                        id="">Simpan</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Modal Konfirmasi Hapus -->
 <div class="modal fade" id="konfirmasiHapusModal" tabindex="-1" role="dialog"
     aria-labelledby="konfirmasiHapusModalLabel" aria-hidden="true">
@@ -211,12 +296,14 @@
                 <h2 class="" style="font-weight: 600; font-size: 16px; margin-top: 10px; color:#000000;">
                     Bimbingan
                     Proposal</h2>
-                <div class="my-auto items-center btn btn-primary rounded-lg py-1.5"
-                    style="letter-spacing: 0px !important;">
-                    <i class="fas fa-plus"></i>
-                    <a class="text-button-sim active px-4" data-toggle="modal" data-target="#tambahLogBimbinganModal">
-                        Tambah</a>
-                </div>
+                @role('user')
+                    <div class="my-auto items-center btn btn-primary rounded-lg py-1.5"
+                        style="letter-spacing: 0px !important;">
+                        <i class="fas fa-plus"></i>
+                        <a class="text-button-sim active px-4" data-toggle="modal" data-target="#tambahLogBimbinganModal">
+                            Tambah</a>
+                    </div>
+                @endrole
             </div>
             <div class="row">
                 <div class="col-12">
@@ -250,137 +337,262 @@
                                     </div>
                                 </form>
                             </div>
-                            <div class="table-responsive rounded-lg">
-                                <table class="table">
-                                    <thead>
-                                        <tr>
-                                            <th class="text-center">
-                                                <div class="custom-checkbox custom-control">
-                                                    <input type="checkbox" data-checkboxes="mygroup"
-                                                        data-checkbox-role="dad" class="custom-control-input"
-                                                        id="checkbox-all">
-                                                    <label for="checkbox-all" class="custom-control-label">&nbsp;</label>
-                                                </div>
-                                            </th>
-                                            <th>Tanggal</th>
-                                            <th>Topik</th>
-                                            <th>Dosen Pembimbing</th>
-                                            <th>Status</th>
-                                            <th>Aksi</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td class="p-0 text-center">
-                                                <div class="custom-checkbox custom-control">
-                                                    <input type="checkbox" data-checkboxes="mygroup"
-                                                        class="custom-control-input" id="checkbox-1">
-                                                    <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
-                                                </div>
-                                            </td>
-                                            <td>2023-12-20</td>
-                                            <td>Laporan Progress BAB 1</td>
-                                            <td>Anugrah Nur Rahmanto, S.Sn., M.Ds.</td>
-                                            <td style="display: none;">Offline</td>
-                                            <td>
-                                                <div class="bg-success d-inline-block text-status-sim px-2 py-1 rounded-lg"
-                                                    style="color:white;">Diterima</div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <a class="btn btn-warning" id=""><i
-                                                            class="fas fa-pencil-alt" style="color: white"></i></a>
-                                                    <a class="btn btn-danger" id=""><i class="fas fa-trash"
-                                                            style="color: white"></i></a>
-                                                    <a class="btn btn-info" id=""><i class="fas fa-bars"
-                                                            style="color: white"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="p-0 text-center">
-                                                <div class="custom-checkbox custom-control">
-                                                    <input type="checkbox" data-checkboxes="mygroup"
-                                                        class="custom-control-input" id="checkbox-1">
-                                                    <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
-                                                </div>
-                                            </td>
-                                            <td>2024-01-01</td>
-                                            <td>Progress BAB 2</td>
-                                            <td>Anugrah Nur Rahmanto, S.Sn., M.Ds.</td>
-                                            <td style="display: none;">Online</td>
-                                            <td>
-                                                <div class="bg-success d-inline-block text-status-sim px-2 py-1 rounded-lg"
-                                                    style="color:white;">Diterima</div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <a class="btn btn-warning" id=""><i
-                                                            class="fas fa-pencil-alt" style="color: white"></i></a>
-                                                    <a class="btn btn-danger" id=""><i class="fas fa-trash"
-                                                            style="color: white"></i></a>
-                                                    <a class="btn btn-info" id=""><i class="fas fa-bars"
-                                                            style="color: white"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="p-0 text-center">
-                                                <div class="custom-checkbox custom-control">
-                                                    <input type="checkbox" data-checkboxes="mygroup"
-                                                        class="custom-control-input" id="checkbox-1">
-                                                    <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
-                                                </div>
-                                            </td>
-                                            <td>2024-01-12</td>
-                                            <td>Wawancara Responden</td>
-                                            <td>Anugrah Nur Rahmanto, S.Sn., M.Ds.</td>
-                                            <td style="display: none;">Offline</td>
-                                            <td>
-                                                <div class="bg-success d-inline-block text-status-sim px-2 py-1 rounded-lg"
-                                                    style="color:white;">Diterima</div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <a class="btn btn-warning" id=""><i
-                                                            class="fas fa-pencil-alt" style="color: white"></i></a>
-                                                    <a class="btn btn-danger" id=""><i class="fas fa-trash"
-                                                            style="color: white"></i></a>
-                                                    <a class="btn btn-info" id=""><i class="fas fa-bars"
-                                                            style="color: white"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="p-0 text-center">
-                                                <div class="custom-checkbox custom-control">
-                                                    <input type="checkbox" data-checkboxes="mygroup"
-                                                        class="custom-control-input" id="checkbox-1">
-                                                    <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
-                                                </div>
-                                            </td>
-                                            <td>2024-01-20</td>
-                                            <td>Revisi BAB 2</td>
-                                            <td>Anugrah Nur Rahmanto, S.Sn., M.Ds.</td>
-                                            <td style="display: none;">Whatsapp</td>
-                                            <td>
-                                                <div class="bg-success d-inline-block text-status-sim px-2 py-1 rounded-lg"
-                                                    style="color:white;">Diterima</div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <a class="btn btn-warning" id=""><i
-                                                            class="fas fa-pencil-alt" style="color: white"></i></a>
-                                                    <a class="btn btn-danger" id=""><i class="fas fa-trash"
-                                                            style="color: white"></i></a>
-                                                    <a class="btn btn-info" id=""><i class="fas fa-bars"
-                                                            style="color: white"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
+                            @role('user')
+                                <div class="table-responsive rounded-lg">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-center">
+                                                    <div class="custom-checkbox custom-control">
+                                                        <input type="checkbox" data-checkboxes="mygroup"
+                                                            data-checkbox-role="dad" class="custom-control-input"
+                                                            id="checkbox-all">
+                                                        <label for="checkbox-all" class="custom-control-label">&nbsp;</label>
+                                                    </div>
+                                                </th>
+                                                <th>Tanggal</th>
+                                                <th>Topik</th>
+                                                <th>Dosen Pembimbing</th>
+                                                <th>Status</th>
+                                                <th>Aksi</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="p-0 text-center">
+                                                    <div class="custom-checkbox custom-control">
+                                                        <input type="checkbox" data-checkboxes="mygroup"
+                                                            class="custom-control-input" id="checkbox-1">
+                                                        <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
+                                                    </div>
+                                                </td>
+                                                <td>2023-12-20</td>
+                                                <td>Laporan Progress BAB 1</td>
+                                                <td>Anugrah Nur Rahmanto, S.Sn., M.Ds.</td>
+                                                <td style="display: none;">Online</td>
+                                                <td>
+                                                    <div class="bg-success d-inline-block text-status-sim px-2 py-1 rounded-lg"
+                                                        style="color:white;">Diterima</div>
+                                                </td>
+                                                <td>
+                                                    <div>
+                                                        <a class="btn btn-warning" id=""><i
+                                                                class="fas fa-pencil-alt" style="color: white"></i></a>
+                                                        <a class="btn btn-danger" id=""><i class="fas fa-trash"
+                                                                style="color: white"></i></a>
+                                                        <a class="btn btn-info mahasiswa" id=""><i
+                                                                class="fas fa-bars" style="color: white"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="p-0 text-center">
+                                                    <div class="custom-checkbox custom-control">
+                                                        <input type="checkbox" data-checkboxes="mygroup"
+                                                            class="custom-control-input" id="checkbox-1">
+                                                        <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
+                                                    </div>
+                                                </td>
+                                                <td>2024-01-01</td>
+                                                <td>Progress BAB 2</td>
+                                                <td>Anugrah Nur Rahmanto, S.Sn., M.Ds.</td>
+                                                <td style="display: none;">Online</td>
+                                                <td>
+                                                    <div class="bg-success d-inline-block text-status-sim px-2 py-1 rounded-lg"
+                                                        style="color:white;">Diterima</div>
+                                                </td>
+                                                <td>
+                                                    <div>
+                                                        <a class="btn btn-warning" id=""><i
+                                                                class="fas fa-pencil-alt" style="color: white"></i></a>
+                                                        <a class="btn btn-danger" id=""><i class="fas fa-trash"
+                                                                style="color: white"></i></a>
+                                                        <a class="btn btn-info mahasiswa" id=""><i
+                                                                class="fas fa-bars" style="color: white"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="p-0 text-center">
+                                                    <div class="custom-checkbox custom-control">
+                                                        <input type="checkbox" data-checkboxes="mygroup"
+                                                            class="custom-control-input" id="checkbox-1">
+                                                        <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
+                                                    </div>
+                                                </td>
+                                                <td>2024-01-12</td>
+                                                <td>Wawancara Responden</td>
+                                                <td>Anugrah Nur Rahmanto, S.Sn., M.Ds.</td>
+                                                <td style="display: none;">Offline</td>
+                                                <td>
+                                                    <div class="bg-success d-inline-block text-status-sim px-2 py-1 rounded-lg"
+                                                        style="color:white;">Diterima</div>
+                                                </td>
+                                                <td>
+                                                    <div>
+                                                        <a class="btn btn-warning" id=""><i
+                                                                class="fas fa-pencil-alt" style="color: white"></i></a>
+                                                        <a class="btn btn-danger" id=""><i class="fas fa-trash"
+                                                                style="color: white"></i></a>
+                                                        <a class="btn btn-info mahasiswa" id=""><i
+                                                                class="fas fa-bars" style="color: white"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="p-0 text-center">
+                                                    <div class="custom-checkbox custom-control">
+                                                        <input type="checkbox" data-checkboxes="mygroup"
+                                                            class="custom-control-input" id="checkbox-1">
+                                                        <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
+                                                    </div>
+                                                </td>
+                                                <td>2024-01-20</td>
+                                                <td>Revisi BAB 2</td>
+                                                <td>Anugrah Nur Rahmanto, S.Sn., M.Ds.</td>
+                                                <td style="display: none;">Whatsapp</td>
+                                                <td>
+                                                    <div class="bg-success d-inline-block text-status-sim px-2 py-1 rounded-lg"
+                                                        style="color:white;">Diterima</div>
+                                                </td>
+                                                <td>
+                                                    <div>
+                                                        <a class="btn btn-warning" id=""><i
+                                                                class="fas fa-pencil-alt" style="color: white"></i></a>
+                                                        <a class="btn btn-danger" id=""><i class="fas fa-trash"
+                                                                style="color: white"></i></a>
+                                                        <a class="btn btn-info mahasiswa" id=""><i
+                                                                class="fas fa-bars" style="color: white"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            @endrole
+                            @role('super-admin')
+                                <div class="table-responsive rounded-lg">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-center">
+                                                    <div class="custom-checkbox custom-control">
+                                                        <input type="checkbox" data-checkboxes="mygroup"
+                                                            data-checkbox-role="dad" class="custom-control-input"
+                                                            id="checkbox-all">
+                                                        <label for="checkbox-all" class="custom-control-label">&nbsp;</label>
+                                                    </div>
+                                                </th>
+                                                <th>Tanggal</th>
+                                                <th>Prodi</th>
+                                                <th>Nama Mahasiswa</th>
+                                                <th>Topik</th>
+                                                <th>Status</th>
+                                                <th>Aksi</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="p-0 text-center">
+                                                    <div class="custom-checkbox custom-control">
+                                                        <input type="checkbox" data-checkboxes="mygroup"
+                                                            class="custom-control-input" id="checkbox-1">
+                                                        <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
+                                                    </div>
+                                                </td>
+                                                <td>2023-12-21</td>
+                                                <td>D-IV SIB</td>
+                                                <td>Aisyah</td>
+                                                <td>Revisi Bab 1</td>
+                                                <td style="display: none;">Online</td>
+                                                <td>
+                                                    <div class="bg-success d-inline-block text-status-sim px-2 py-1 rounded-lg"
+                                                        style="color:white;">Diterima</div>
+                                                </td>
+                                                <td>
+                                                    <div>
+                                                        <a class="btn btn-info log"><i class="fas fa-bars"
+                                                                style="color: white"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="p-0 text-center">
+                                                    <div class="custom-checkbox custom-control">
+                                                        <input type="checkbox" data-checkboxes="mygroup"
+                                                            class="custom-control-input" id="checkbox-1">
+                                                        <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
+                                                    </div>
+                                                </td>
+                                                <td>2023-12-2</td>
+                                                <td>D-IV SIB</td>
+                                                <td>Sugeng</td>
+                                                <td>Revisi Bab 2</td>
+                                                <td style="display: none;">Offline</td>
+                                                <td>
+                                                    <div class="bg-success d-inline-block text-status-sim px-2 py-1 rounded-lg"
+                                                        style="color:white;">Diterima</div>
+                                                </td>
+                                                <td>
+                                                    <div>
+                                                        <a class="btn btn-info log"><i class="fas fa-bars"
+                                                                style="color: white"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="p-0 text-center">
+                                                    <div class="custom-checkbox custom-control">
+                                                        <input type="checkbox" data-checkboxes="mygroup"
+                                                            class="custom-control-input" id="checkbox-1">
+                                                        <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
+                                                    </div>
+                                                </td>
+                                                <td>2023-12-13</td>
+                                                <td>D-IV SIB</td>
+                                                <td>Rudolf</td>
+                                                <td>Revisi Bab 3</td>
+                                                <td style="display: none;">Offline</td>
+                                                <td>
+                                                    <div class="bg-danger d-inline-block text-status-sim px-2 py-1 rounded-lg"
+                                                        style="color:white;">Ditolak</div>
+                                                </td>
+                                                <td>
+                                                    <div>
+                                                        <a class="btn btn-info log"><i class="fas fa-bars"
+                                                                style="color: white"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="p-0 text-center">
+                                                    <div class="custom-checkbox custom-control">
+                                                        <input type="checkbox" data-checkboxes="mygroup"
+                                                            class="custom-control-input" id="checkbox-1">
+                                                        <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
+                                                    </div>
+                                                </td>
+                                                <td>2023-12-15</td>
+                                                <td>D-IV SIB</td>
+                                                <td>Tegar</td>
+                                                <td>Revisi Bab 4</td>
+                                                <td style="display: none;">Offline</td>
+                                                <td>
+                                                    <div class="bg-success d-inline-block text-status-sim px-2 py-1 rounded-lg"
+                                                        style="color:white;">Diterima</div>
+                                                </td>
+                                                <td>
+                                                    <div>
+                                                        <a class="btn btn-info log"><i class="fas fa-bars"
+                                                                style="color: white"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            @endrole
                         </div>
                         <div class="d-flex justify-content-between mt-4 align-items-center">
                             <button class="btn"
@@ -447,8 +659,7 @@
                 }, 1000);
             });
 
-
-            $('.btn-info').click(function() {
+            $('.btn-info.mahasiswa').click(function() {
                 // Get the data from the selected row
                 var row = $(this).closest('tr');
                 var dosenPembimbing = row.find('td:nth-child(4)').text();
@@ -491,19 +702,20 @@
 
                     setTimeout(function() {
                         $('#alertContainer').prepend(`
-                        <div class="alert alert-white alert-dismissible fade show" role="alert" style="border-left: 15px solid #2F80ED;">
-                            <div class="d-flex align-items-center">
-                                <i class="fas fa-check-circle" style="color: #2F80ED; font-size: 1.5rem; margin-right: 20px;"></i>
-                                <div>
-                                    <h6 class="text-dark">Sukses</h6>
-                                    <p class="text-secondary">Data Log berhasil dihapus.</p>
-                                </div>
-                            </div>
-                            <button type="button" class="close text-secondary" data-dismiss="alert" aria-label="Close" style="position: absolute; top: 50%; transform: translateY(-50%); right: 1rem;">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                    `);
+    <div class="alert alert-white alert-dismissible fade show" role="alert" style="border-left: 15px solid #2F80ED;">
+        <div class="d-flex align-items-center">
+            <i class="fas fa-check-circle" style="color: #2F80ED; font-size: 1.5rem; margin-right: 20px;"></i>
+            <div>
+                <h6 class="text-dark">Sukses</h6>
+                <p class="text-secondary">Data Log berhasil dihapus.</p>
+            </div>
+        </div>
+        <button type="button" class="close text-secondary" data-dismiss="alert" aria-label="Close"
+            style="position: absolute; top: 50%; transform: translateY(-50%); right: 1rem;">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    `);
 
                         row.hide();
 
@@ -539,23 +751,105 @@
             // Menambahkan alert setelah modal tertutup
             setTimeout(function() {
                 $('#alertContainer').prepend(`
-                <div class="alert alert-white alert-dismissible fade show" role="alert" style="border-left: 15px solid #2F80ED;">
-                    <div class="d-flex align-items-center">
-                        <i class="fas fa-check-circle" style="color: #2F80ED; font-size: 1.5rem; margin-right: 20px;"></i>
-                        <div>
-                            <h6 class="text-dark">Sukses</h6>
-                            <p class="text-secondary">Perubahan pada Log Bimbingan berhasil disimpan.</p>
-                        </div>
-                    </div>
-                    <button type="button" class="close text-secondary" data-dismiss="alert" aria-label="Close" style="position: absolute; top: 50%; transform: translateY(-50%); right: 1rem;">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-            `);
+    <div class="alert alert-white alert-dismissible fade show" role="alert" style="border-left: 15px solid #2F80ED;">
+        <div class="d-flex align-items-center">
+            <i class="fas fa-check-circle" style="color: #2F80ED; font-size: 1.5rem; margin-right: 20px;"></i>
+            <div>
+                <h6 class="text-dark">Sukses</h6>
+                <p class="text-secondary">Perubahan pada Log Bimbingan berhasil disimpan.</p>
+            </div>
+        </div>
+        <button type="button" class="close text-secondary" data-dismiss="alert" aria-label="Close"
+            style="position: absolute; top: 50%; transform: translateY(-50%); right: 1rem;">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    `);
             }, 1000);
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('.btn-info.log').click(function() {
+                // Get the closest <tr> element
+                var row = $(this).closest('tr');
+
+                // Extract data from the <tr>
+                var namaMahasiswa = row.find('td').eq(3).text();
+                var waktuTanggal = row.find('td').eq(1).text();
+                var topik = row.find('td').eq(4).text();
+                var metodeBimbingan = row.find('td').eq(5).text();
+                var deskripsi = 'Deskripsi pembahasan pada bimbingan'; // Assuming this is static
+                var statusBimbingan = row.find('td').eq(6).text(); // Assuming this is the status
+                var nilai = 'Nilai Mengenai bimbingan' // Assuming this is the value for 'Nilai'
+                var komentar = 'Komentar mengenai bimbingan'; // Assuming this is static or to be fetched
+
+                // Debugging lines to check extracted data
+                console.log('Extracted data:', {
+                    namaMahasiswa: namaMahasiswa,
+                    waktuTanggal: waktuTanggal,
+                    topik: topik,
+                    metodeBimbingan: metodeBimbingan,
+                    deskripsi: deskripsi,
+                    statusBimbingan: statusBimbingan,
+                    nilai: nilai,
+                    komentar: komentar
+                });
+
+                // Populate the modal with the extracted data
+                $('#detailLogMahasiswa').text(namaMahasiswa);
+                $('#detailWaktuTanggalMahasiswa').text(waktuTanggal);
+                $('#detailTopikMahasiswa').text(topik);
+                $('#detailDeskripsiMahasiswa').text(deskripsi);
+
+                // Update the badge for metode bimbingan
+                var metodeBadge = $('#detailMetodeBimbinganMahasiswa');
+                metodeBadge.removeClass('badge-online badge-warning badge-success');
+                metodeBadge.empty();
+
+                if (metodeBimbingan.toLowerCase() === 'online') {
+                    metodeBadge.addClass('badge-online rounded-lg');
+                    metodeBadge.html('<i class="fas fa-video"></i> Online');
+                } else if (metodeBimbingan.toLowerCase() === 'offline') {
+                    metodeBadge.addClass('badge-warning rounded-lg');
+                    metodeBadge.html('<i class="fas fa-video-slash"></i> Offline');
+                } else if (metodeBimbingan.toLowerCase() === 'whatsapp') {
+                    metodeBadge.addClass('badge-success rounded-lg');
+                    metodeBadge.html('<i class="fab fa-whatsapp"></i> WhatsApp');
+                }
+
+                // Set the status radio buttons
+                if (statusBimbingan.trim().toLowerCase() === 'diterima') {
+                    $('#statusDiterima').prop('checked', true);
+                } else if (statusBimbingan.trim().toLowerCase() === 'ditolak') {
+                    $('#statusDitolak').prop('checked', true);
+                }
+
+                // Populate additional fields
+                $('#detailNilaiMahasiswa').text(nilai);
+                $('#detailKomentar').text(komentar);
+
+                // Show the modal
+                $('#lihatDetailLogBimbinganModal').modal('show');
+            });
         });
     </script>
 @endpush
 
 @push('customStyle')
+    <style>
+        .form-information {
+            background-color: #F2F4F7 !important;
+            border-radius: 8px !important;
+        }
+
+        .modal-header {
+            box-shadow: 0px 0px 100px #000000;
+        }
+
+        .modal-body {
+            background-color: #FCFDFD;
+            padding: 30px 40px !important;
+        }
+    </style>
 @endpush
