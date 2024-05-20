@@ -34,7 +34,7 @@
             border: none;
             border-bottom: 3px solid transparent;
             color: #6c757d;
-            font-weight: bold !important;
+            font-weight: 600 !important;
         }
 
         .nav-tabs .nav-link.active {
