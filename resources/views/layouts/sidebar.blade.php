@@ -19,27 +19,39 @@
                 <span class="text-dark">Skripsi</span></a>
             <ul class="dropdown-menu">
                 <li><a class="nav-link text-dark" href="{{ route('user.index') }}">Proposal</a></li>
-                <li><a class="nav-link text-dark" href="{{ route('user.index') }}">Laporan Skripsi</a></li>
+                <li><a class="nav-link text-dark" href="#">Laporan Skripsi</a></li>
             </ul>
         </li>
+        @php
+            $user = Auth::user();
+        @endphp
+
+        @if ($user->hasRole('super-admin'))
+            <li>
+                <a class="nav-link" href="{{ route('informasi-dosen') }}"><img
+                        src="{{ asset('../assets/img/sidebar/File_dock_search.png') }}" width="25"
+                        style="margin-right: 10px;"> <span class="text-dark">Informasi Dosen</span></a>
+            </li>
+        @elseif($user->hasRole('user'))
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link has-dropdown"><img
+                        src="{{ asset('../assets/img/sidebar/File_dock_search.png') }}" width="25"
+                        style="margin-right: 10px;">
+                    <span class="text-dark">Informasi Dosen</span></a>
+                <ul class="dropdown-menu">
+                    <li><a class="nav-link text-dark" href="{{ route('dosen-pembimbing') }}">Dosen Pembimbing</a></li>
+                    <li><a class="nav-link text-dark" href="{{ route('topik-dosen') }}">Usulan Topik Dosen</a></li>
+                </ul>
+            </li>
+        @endif
         <li class="nav-item dropdown">
             <a href="#" class="nav-link has-dropdown"><img
-                    src="{{ asset('../assets/img/sidebar/File_dock_search.png') }}" width="25"
-                    style="margin-right: 10px;">
-                <span class="text-dark">Informasi Dosen</span></a>
-            <ul class="dropdown-menu">
-                <li><a class="nav-link text-dark" href="{{ route('user.index') }}">Dosen Pembimbing</a></li>
-                <li><a class="nav-link text-dark" href="{{ route('user.index') }}">Usulan Topik Dosen</a></li>
-            </ul>
-        </li>
-        <li class="nav-item dropdown">
-            <a href="#" class="nav-link has-dropdown"><img src="{{ asset('../assets/img/sidebar/Desk_alt.png') }}"
-                    width="25" style="margin-right: 10px;">
+                    src="{{ asset('../assets/img/sidebar/Desk_alt.png') }}" width="25" style="margin-right: 10px;">
                 <span class="text-dark">Log Bimbingan</span></a>
             <ul class="dropdown-menu">
                 <li><a class="nav-link text-dark" href="{{ route('pra-seminar-proposal') }}">Pra Seminar Proposal</a>
                 </li>
-                <li><a class="nav-link text-dark" href="{{ route('user.index') }}">Sidang Skirpsi</a></li>
+                <li><a class="nav-link text-dark" href="#">Sidang Skirpsi</a></li>
             </ul>
         </li>
         <li>

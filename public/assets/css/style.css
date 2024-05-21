@@ -1922,6 +1922,21 @@ h6 .badge {
     color: #fff;
 }
 
+.btn-outline-template,
+.btn-outline-template.disabled {
+    border-color: #2360B2;
+    color: #2360B2;
+}
+.btn-outline-template:hover,
+.btn-outline-template:focus,
+.btn-outline-template:active,
+.btn-outline-template.disabled:hover,
+.btn-outline-template.disabled:focus,
+.btn-outline-template.disabled:active {
+    background-color: #2361b22d !important;
+    color: #2360B2;
+}
+
 .btn-outline-white,
 .btn-outline-white.disabled {
     border-color: #fff;

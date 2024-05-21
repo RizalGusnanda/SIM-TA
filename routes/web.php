@@ -47,6 +47,18 @@ Route::get('/faq-dosen', function(){
     return view('faq');
 })->name('faq-dosen');
 
+Route::get('/informasi-dosen', function(){
+    return view('informasi');
+})->name('informasi-dosen');
+
+Route::get('/dosen-pembimbing', function(){
+    return view('dosenPembimbing');
+})->name('dosen-pembimbing');
+
+Route::get('/topik-dosen', function(){
+    return view('topikDosen');
+})->name('topik-dosen');
+
 Route::group(['middleware' => ['auth', 'verified']], function () {
     Route::get('/dashboard', function () {
         return view('home', ['users' => User::get(),]);
