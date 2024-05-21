@@ -18,8 +18,8 @@
                     style="margin-right: 10px;">
                 <span class="text-dark">Skripsi</span></a>
             <ul class="dropdown-menu">
-                <li><a class="nav-link text-dark" href="{{ route('user.index') }}">Proposal</a></li>
-                <li><a class="nav-link text-dark" href="#">Laporan Skripsi</a></li>
+                <li><a class="nav-link text-dark" href="{{ route('proposal-skripsi') }}">Proposal</a></li>
+                <li><a class="nav-link text-dark" href="{{ route('user.index') }}">Laporan Skripsi</a></li>
             </ul>
         </li>
         @php

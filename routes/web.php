@@ -39,6 +39,10 @@ Route::get('/profil', function(){
     return view('profile');
 })->name('profil');
 
+Route::get('/proposal-skripsi', function(){
+    return view('proposal');
+})->name('proposal-skripsi');
+
 Route::get('/faq-user', function(){
     return view('faq');
 })->name('faq-user');
