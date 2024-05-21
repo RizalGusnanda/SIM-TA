@@ -48,8 +48,21 @@
                     style="margin-right: 10px;"><span class="text-dark">Profile</span></a>
         </li>
         <li>
-            <a class="nav-link" href="/faq"><img src="{{ asset('../assets/img/sidebar/Question.png') }}"
-                    width="25" style="margin-right: 10px;"> <span class="text-dark">FAQ</span></a>
+            @if (auth()->check())
+                @php
+                    $user = auth()->user();
+                    $faqUrl = $user->hasRole('super-admin')
+                        ? '/faq-dosen'
+                        : ($user->hasRole('user')
+                            ? '/faq-user'
+                            : '/faq');
+                @endphp
+                <a class="nav-link" href="{{ $faqUrl }}">
+                    <img src="{{ asset('../assets/img/sidebar/Question.png') }}" width="25"
+                        style="margin-right: 10px;">
+                    <span class="text-dark">FAQ</span>
+                </a>
+            @endif
         </li>
         <li>
             <a class="nav-link" href="{{ route('logout') }}"
