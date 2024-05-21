@@ -180,7 +180,8 @@
                 </div>
                 <div class="text-right mt-3">
                     <button type="button" class="btn px-5"
-                        style="width:130px;  border: 1px solid #11468F; color:#11468F;" id="">Batal</button>
+                        style="width:130px;  border: 1px solid #11468F; color:#11468F;"
+                        data-dismiss="modal">Batal</button>
                     <button type="button" class="btn btn-primary ml-2" style="width:130px;"
                         id="">Simpan</button>
                 </div>
@@ -811,7 +812,7 @@
                     metodeBadge.addClass('badge-online rounded-lg');
                     metodeBadge.html('<i class="fas fa-video"></i> Online');
                 } else if (metodeBimbingan.toLowerCase() === 'offline') {
-                    metodeBadge.addClass('badge-warning rounded-lg');
+                    metodeBadge.addClass('badge-online rounded-lg');
                     metodeBadge.html('<i class="fas fa-video-slash"></i> Offline');
                 } else if (metodeBimbingan.toLowerCase() === 'whatsapp') {
                     metodeBadge.addClass('badge-success rounded-lg');
@@ -841,10 +842,6 @@
         .form-information {
             background-color: #F2F4F7 !important;
             border-radius: 8px !important;
-        }
-
-        .modal-header {
-            box-shadow: 0px 0px 100px #000000;
         }
 
         .modal-body {

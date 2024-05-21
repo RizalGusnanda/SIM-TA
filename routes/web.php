@@ -39,6 +39,10 @@ Route::get('/profil', function(){
     return view('profile');
 })->name('profil');
 
+Route::get('/proposal-skripsi', function(){
+    return view('proposal');
+})->name('proposal-skripsi');
+
 Route::group(['middleware' => ['auth', 'verified']], function () {
     Route::get('/dashboard', function () {
         return view('home', ['users' => User::get(),]);
