@@ -117,21 +117,21 @@
             </div>
             <div class="modal-body">
                 <div class="form-group row with-underline">
-                    <label for="detailLogMahasiswa" class="col-sm-4 col-form-label text-dark">Dosen
+                    <label for="detailLogMahasiswa" class="col-sm-4 col-form-label text-dark">
                         Nama Mahasiswa:</label>
                     <div class="col-sm-8">
                         <p id="detailLogMahasiswa" class="form-control-plaintext"></p>
                     </div>
                 </div>
                 <div class="form-group row with-underline">
-                    <label for="detailWaktuTanggalMahasiswa" class="col-sm-4 col-form-label text-dark">Waktu dan
+                    <label for="detailWaktuTanggalMahasiswa" class="col-sm-4 col-form-label text-dark">
                         Waktu dan Tanggal:</label>
                     <div class="col-sm-8">
                         <p id="detailWaktuTanggalMahasiswa" class="form-control-plaintext"></p>
                     </div>
                 </div>
                 <div class="form-group row with-underline">
-                    <label for="detailMetodeBimbinganMahasiswa" class="col-sm-4 col-form-label text-dark">Metode
+                    <label for="detailMetodeBimbinganMahasiswa" class="col-sm-4 col-form-label text-dark">
                         Metode Bimbingan:</label>
                     <div class="col-sm-8">
                         <span id="detailMetodeBimbinganMahasiswa" class="badge"></span>

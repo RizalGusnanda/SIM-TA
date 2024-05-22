@@ -52,7 +52,7 @@
             <div class="modal-body rounded" style="background-color: #FCFDFD;">
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="dosen1" role="tabpanel" aria-labelledby="dosen1-tab">
-                        <div class="row">
+                        <div class="row" style="margin-bottom: 0px !important;">
                             <label for="detailDosenPembimbing" class="col-sm-4 col-form-label text-dark"
                                 style="font-weight: 600 !important;">Dosen
                                 Pembimbing</label>

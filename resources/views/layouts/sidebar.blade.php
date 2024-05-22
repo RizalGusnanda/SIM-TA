@@ -18,7 +18,12 @@
                     style="margin-right: 10px;">
                 <span class="text-dark">Skripsi</span></a>
             <ul class="dropdown-menu">
-                <li><a class="nav-link text-dark" href="{{ route('proposal-skripsi') }}">Proposal</a></li>
+                @role('user')
+                    <li><a class="nav-link text-dark" href="{{ route('proposal-skripsi') }}">Proposal</a></li>
+                @endrole
+                @role('super-admin')
+                    <li><a class="nav-link text-dark" href="{{ route('proposal-skripsi-dosen') }}">Proposal</a></li>
+                @endrole
                 <li><a class="nav-link text-dark" href="{{ route('user.index') }}">Laporan Skripsi</a></li>
             </ul>
         </li>

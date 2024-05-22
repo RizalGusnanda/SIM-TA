@@ -43,6 +43,10 @@ Route::get('/proposal-skripsi', function(){
     return view('proposal');
 })->name('proposal-skripsi');
 
+Route::get('/proposal-skripsi-dosen', function(){
+    return view('proposal-dosen');
+})->name('proposal-skripsi-dosen');
+
 Route::get('/faq-user', function(){
     return view('faq');
 })->name('faq-user');
