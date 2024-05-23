@@ -9,8 +9,9 @@
     </div>
     <ul class="sidebar-menu">
         <li>
-            <a class="nav-link" href="/home"><img src="{{ asset('../assets/img/sidebar/darhboard.png') }}"
-                    width="25" style="margin-right: 10px;"> <span class="text-dark">Dashboard</span></a>
+            <a class="nav-link" href="/dashboard"><img src="{{ asset('../assets/img/sidebar/darhboard.png') }}"
+                    width="25" style="margin-right: 10px;">
+                <span class="text-dark">Dashboard</span></a>
         </li>
         <li class="nav-item dropdown">
             <a href="#" class="nav-link has-dropdown"><img

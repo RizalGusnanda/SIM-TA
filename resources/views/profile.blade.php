@@ -188,9 +188,8 @@
                                                     <h5 style="font-size: 14px; color: black;">Pegawai</h5>
                                                     <select class="form-control form-information" type="text"
                                                         placeholder="Pilih Pegawai">
-                                                        <option value="">Pegawai 1</option>
-                                                        <option value="">Pegawai 2</option>
-                                                        <option value="">Pegawai 3</option>
+                                                        <option value="">PNS</option>
+                                                        <option value="">Kontrak</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -199,9 +198,9 @@
                                                     <h5 style="font-size: 14px; color: black;">Jabatan</h5>
                                                     <select class="form-control form-information" type="text"
                                                         placeholder="Pilih Jabatan">
-                                                        <option value="">Jabatan 1</option>
-                                                        <option value="">Jabatan 2</option>
-                                                        <option value="">Jabatan 3</option>
+                                                        <option value="">Dosen</option>
+                                                        <option value="">Asisten Ahli</option>
+                                                        <option value="">Dosen Industri</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -215,8 +214,8 @@
                                                     <h5 style="font-size: 14px; color: black;">Status</h5>
                                                     <select class="form-control form-information" type="text"
                                                         placeholder="Pilih Status">
-                                                        <option value="">Active</option>
-                                                        <option value="">Inactive</option>
+                                                        <option value="">Aktif</option>
+                                                        <option value="">Non-Aktif</option>
                                                     </select>
                                                 </div>
                                             </div>
