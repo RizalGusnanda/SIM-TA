@@ -357,7 +357,7 @@
                 var status = $(this).data('status');
 
                 var bidangBadges = bidangTopik.split(',').map(function(bidang) {
-                    return `<span class="badge badge-cv me-1 mr-1">${bidang.trim()}</span>`;
+                    return `<span class="badge badge-cv2 me-1 mr-1">${bidang.trim()}</span>`;
                 }).join('');
 
                 var statusBadge = status === 'Tersedia' ? 'badge-info' : 'badge-danger';

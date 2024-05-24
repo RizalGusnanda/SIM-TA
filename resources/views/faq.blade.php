@@ -56,8 +56,7 @@
                                     <div class="card mb-2" style="border-radius: 8px;">
                                         <div class="row align-items-center px-3 py-3">
                                             <div class="col-md-10 d-flex align-items-center">
-                                                <p class="m-0 bold-faq"> Bagaimana menggunakan Sistem Tugas Akhir untuk
-                                                    mahasiswa akhir? </p>
+                                                <p class="m-0 bold-faq"> Bagaimana prosedur pengajuan topik skripsi? </p>
                                             </div>
                                             <div class="col-md-2 d-flex align-items-center justify-content-end">
                                                 <i class="fa fa-plus-circle ikon-plus" data-target="card-body"
@@ -67,7 +66,6 @@
                                     </div>
                                     <div class="card mb-2" id="card-body" style="display: none;">
                                         <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
                                             <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
                                                 lorem fringilla. Non
                                                 pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
@@ -81,8 +79,7 @@
                                     <div class="card mb-2" style="border-radius: 8px;">
                                         <div class="row align-items-center px-3 py-3">
                                             <div class="col-md-10 d-flex align-items-center">
-                                                <p class="m-0 bold-faq"> Bagaimana menggunakan Sistem Tugas Akhir untuk
-                                                    mahasiswa akhir? </p>
+                                                <p class="m-0 bold-faq">  Apa yang harus dilakukan setelah topik skripsi disetujui? </p>
                                             </div>
                                             <div class="col-md-2 d-flex align-items-center justify-content-end">
                                                 <i class="fa fa-plus-circle ikon-plus" data-target="card-body2"
@@ -92,7 +89,6 @@
                                     </div>
                                     <div class="card mb-2" id="card-body2" style="display: none;">
                                         <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
                                             <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
                                                 lorem fringilla. Non
                                                 pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
@@ -118,15 +114,7 @@
                                     </div>
                                     <div class="card mb-2" id="card-body3" style="display: none;">
                                         <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
-                                            <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
-                                                lorem fringilla. Non
-                                                pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
-                                                placerat sagittis urna. Convallis tortor gravida dapibus pellentesque mattis
-                                                eget bibendum. Viverra rutrum massa porta nisl in leo. Lectus massa ipsum vel in
-                                                tellus amet nulla at pharetra. Lectus suspendisse sit ultricies aliquet volutpat
-                                                morbi.Lorem ipsum dolor sit amet consectetur. Nullam vulputate et lorem
-                                                fringilla.</p>
+                                            <p class="text-dark">Prosedur pengajuan topik skripsi dimulai dengan mengakses halaman proposal di website SIM-TA. Mahasiswa perlu mengisi formulir pengajuan  dengan informasi lengkap tentang topik yang diusulkan, termasuk judul, deskripsi, bidang, dan jenis penelitian. Setelah formulir terisi,  mahasiswa menyimpan topik proposal dan menunggu persetujuan calon dosen pembimbing. Proposal ini kemudian akan ditinjau oleh Calon Dosen Pembimbing dan Panitia Skripsi. Jika disetujui, mahasiswa akan menerima konfirmasi melalui notifikasi pada website dan email sehingga dapat melanjutkan ke tahap berikutnya.</p>
                                         </div>
                                     </div>
                                     <div class="card mb-2" style="border-radius: 8px;">
@@ -143,15 +131,25 @@
                                     </div>
                                     <div class="card mb-2" id="card-body4" style="display: none;">
                                         <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
-                                            <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
-                                                lorem fringilla. Non
-                                                pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
-                                                placerat sagittis urna. Convallis tortor gravida dapibus pellentesque mattis
-                                                eget bibendum. Viverra rutrum massa porta nisl in leo. Lectus massa ipsum vel in
-                                                tellus amet nulla at pharetra. Lectus suspendisse sit ultricies aliquet volutpat
-                                                morbi.Lorem ipsum dolor sit amet consectetur. Nullam vulputate et lorem
-                                                fringilla.</p>
+                                            <p class="text-dark">
+                                                Setelah topik skripsi disetujui, langkah-langkah berikut harus dilakukan:
+                                                <br><br>
+                                                1. Mulai Penulisan Proposal: <br>
+                                                Mahasiswa harus menulis proposal skripsi yang lebih rinci, mencakup bab-bab pendahuluan, tinjauan pustaka, metode penelitian, dan rencana kerja.
+                                                <br><br>
+                                                2. Bimbingan Rutin: <br>
+                                                Mengatur jadwal bimbingan rutin dengan dosen pembimbing untuk mendapatkan arahan dan koreksi.
+                                                <br><br>
+                                                3. Persiapan Seminar Proposal: <br>
+                                                Mempersiapkan presentasi untuk seminar proposal, yang mencakup pembuatan slide presentasi dan latihan presentasi.
+                                                <br><br>
+                                                4. Pelaksanaan Seminar Proposal: <br>
+                                                Melaksanakan seminar proposal di depan dosen pembimbing dan penguji. Mendapatkan masukan dan revisi dari mereka.
+                                                <br><br>
+                                                5. Revisi Proposal: <br>
+                                                Melakukan revisi sesuai dengan masukan yang diterima selama seminar.
+                                            </p>
+                                            
                                         </div>
                                     </div>
                                 @endrole
@@ -162,8 +160,7 @@
                                     <div class="card mb-2" style="border-radius: 8px;">
                                         <div class="row align-items-center px-3 py-3">
                                             <div class="col-md-10 d-flex align-items-center">
-                                                <p class="m-0 bold-faq"> Bagaimana menggunakan Sistem Tugas Akhir untuk
-                                                    mahasiswa akhir?</p>
+                                                <p class="m-0 bold-faq"> Bagaimana cara mendaftar dan masuk ke sistem tugas akhir?</p>
                                             </div>
                                             <div class="col-md-2 d-flex align-items-center justify-content-end">
                                                 <i class="fa fa-plus-circle ikon-plus" data-target="card-bodytp1"
@@ -173,7 +170,6 @@
                                     </div>
                                     <div class="card mb-2" id="card-bodytp1" style="display: none;">
                                         <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
                                             <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
                                                 lorem fringilla. Non
                                                 pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
@@ -187,8 +183,7 @@
                                     <div class="card mb-2" style="border-radius: 8px;">
                                         <div class="row align-items-center px-3 py-3">
                                             <div class="col-md-10 d-flex align-items-center">
-                                                <p class="m-0 bold-faq"> Bagaimana menggunakan Sistem Tugas Akhir untuk
-                                                    mahasiswa akhir?</p>
+                                                <p class="m-0 bold-faq"> Bagaimana cara mengakses fitur bimbingan?</p>
                                             </div>
                                             <div class="col-md-2 d-flex align-items-center justify-content-end">
                                                 <i class="fa fa-plus-circle ikon-plus" data-target="card-bodytp2"
@@ -198,32 +193,6 @@
                                     </div>
                                     <div class="card mb-2" id="card-bodytp2" style="display: none;">
                                         <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
-                                            <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
-                                                lorem fringilla. Non
-                                                pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
-                                                placerat sagittis urna. Convallis tortor gravida dapibus pellentesque mattis
-                                                eget bibendum. Viverra rutrum massa porta nisl in leo. Lectus massa ipsum vel in
-                                                tellus amet nulla at pharetra. Lectus suspendisse sit ultricies aliquet volutpat
-                                                morbi.Lorem ipsum dolor sit amet consectetur. Nullam vulputate et lorem
-                                                fringilla.</p>
-                                        </div>
-                                    </div>
-                                    <div class="card mb-2" style="border-radius: 8px;">
-                                        <div class="row align-items-center px-3 py-3">
-                                            <div class="col-md-10 d-flex align-items-center">
-                                                <p class="m-0 bold-faq"> Bagaimana menggunakan Sistem Tugas Akhir untuk
-                                                    mahasiswa akhir?</p>
-                                            </div>
-                                            <div class="col-md-2 d-flex align-items-center justify-content-end">
-                                                <i class="fa fa-plus-circle ikon-plus" data-target="card-bodytp3"
-                                                    onclick="toggleCard(this)"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card mb-2" id="card-bodytp3" style="display: none;">
-                                        <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
                                             <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
                                                 lorem fringilla. Non
                                                 pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
@@ -250,7 +219,6 @@
                                     </div>
                                     <div class="card mb-2" id="card-bodytp4" style="display: none;">
                                         <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
                                             <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
                                                 lorem fringilla. Non
                                                 pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
@@ -274,7 +242,6 @@
                                     </div>
                                     <div class="card mb-2" id="card-bodytp5" style="display: none;">
                                         <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
                                             <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
                                                 lorem fringilla. Non
                                                 pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
@@ -292,8 +259,7 @@
                                     <div class="card mb-2" style="border-radius: 8px;">
                                         <div class="row align-items-center px-3 py-3">
                                             <div class="col-md-10 d-flex align-items-center">
-                                                <p class="m-0 bold-faq"> Bagaimana menggunakan Sistem Tugas Akhir untuk
-                                                    mahasiswa akhir?</p>
+                                                <p class="m-0 bold-faq"> Apa yang harus dilakukan jika lupa password?</p>
                                             </div>
                                             <div class="col-md-2 d-flex align-items-center justify-content-end">
                                                 <i class="fa fa-plus-circle ikon-plus" data-target="card-bodytc1"
@@ -303,7 +269,6 @@
                                     </div>
                                     <div class="card mb-2" id="card-bodytc1" style="display: none;">
                                         <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
                                             <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
                                                 lorem fringilla. Non
                                                 pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
@@ -317,8 +282,7 @@
                                     <div class="card mb-2" style="border-radius: 8px;">
                                         <div class="row align-items-center px-3 py-3">
                                             <div class="col-md-10 d-flex align-items-center">
-                                                <p class="m-0 bold-faq"> Bagaimana menggunakan Sistem Tugas Akhir untuk
-                                                    mahasiswa akhir?</p>
+                                                <p class="m-0 bold-faq">  Bagaimana cara mengatasi masalah saat mengunggah file?</p>
                                             </div>
                                             <div class="col-md-2 d-flex align-items-center justify-content-end">
                                                 <i class="fa fa-plus-circle ikon-plus" data-target="card-bodytc2"
@@ -328,32 +292,6 @@
                                     </div>
                                     <div class="card mb-2" id="card-bodytc2" style="display: none;">
                                         <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
-                                            <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
-                                                lorem fringilla. Non
-                                                pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
-                                                placerat sagittis urna. Convallis tortor gravida dapibus pellentesque mattis
-                                                eget bibendum. Viverra rutrum massa porta nisl in leo. Lectus massa ipsum vel in
-                                                tellus amet nulla at pharetra. Lectus suspendisse sit ultricies aliquet volutpat
-                                                morbi.Lorem ipsum dolor sit amet consectetur. Nullam vulputate et lorem
-                                                fringilla.</p>
-                                        </div>
-                                    </div>
-                                    <div class="card mb-2" style="border-radius: 8px;">
-                                        <div class="row align-items-center px-3 py-3">
-                                            <div class="col-md-10 d-flex align-items-center">
-                                                <p class="m-0 bold-faq"> Bagaimana menggunakan Sistem Tugas Akhir untuk
-                                                    mahasiswa akhir?</p>
-                                            </div>
-                                            <div class="col-md-2 d-flex align-items-center justify-content-end">
-                                                <i class="fa fa-plus-circle ikon-plus" data-target="card-bodytc3"
-                                                    onclick="toggleCard(this)"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card mb-2" id="card-bodytc3" style="display: none;">
-                                        <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
                                             <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
                                                 lorem fringilla. Non
                                                 pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
@@ -379,7 +317,6 @@
                                     </div>
                                     <div class="card mb-2" id="card-bodytc4" style="display: none;">
                                         <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
                                             <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
                                                 lorem fringilla. Non
                                                 pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
@@ -403,7 +340,6 @@
                                     </div>
                                     <div class="card mb-2" id="card-bodytc5" style="display: none;">
                                         <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
                                             <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
                                                 lorem fringilla. Non
                                                 pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
@@ -421,8 +357,7 @@
                                     <div class="card mb-2" style="border-radius: 8px;">
                                         <div class="row align-items-center px-3 py-3">
                                             <div class="col-md-10 d-flex align-items-center">
-                                                <p class="m-0 bold-faq"> Bagaimana menggunakan Sistem Tugas Akhir untuk
-                                                    mahasiswa akhir?</p>
+                                                <p class="m-0 bold-faq"> Bagaimana cara memilih dosen pembimbing?</p>
                                             </div>
                                             <div class="col-md-2 d-flex align-items-center justify-content-end">
                                                 <i class="fa fa-plus-circle ikon-plus" data-target="card-bodyg1"
@@ -432,7 +367,6 @@
                                     </div>
                                     <div class="card mb-2" id="card-bodyg1" style="display: none;">
                                         <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
                                             <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
                                                 lorem fringilla. Non
                                                 pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
@@ -446,8 +380,7 @@
                                     <div class="card mb-2" style="border-radius: 8px;">
                                         <div class="row align-items-center px-3 py-3">
                                             <div class="col-md-10 d-flex align-items-center">
-                                                <p class="m-0 bold-faq"> Bagaimana menggunakan Sistem Tugas Akhir untuk
-                                                    mahasiswa akhir?</p>
+                                                <p class="m-0 bold-faq"> Bagaimana cara dosen menerima atau menolak mahasiswa bimbingan?</p>
                                             </div>
                                             <div class="col-md-2 d-flex align-items-center justify-content-end">
                                                 <i class="fa fa-plus-circle ikon-plus" data-target="card-bodyg2"
@@ -457,7 +390,6 @@
                                     </div>
                                     <div class="card mb-2" id="card-bodyg2" style="display: none;">
                                         <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
                                             <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
                                                 lorem fringilla. Non
                                                 pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
@@ -471,8 +403,7 @@
                                     <div class="card mb-2" style="border-radius: 8px;">
                                         <div class="row align-items-center px-3 py-3">
                                             <div class="col-md-10 d-flex align-items-center">
-                                                <p class="m-0 bold-faq"> Bagaimana menggunakan Sistem Tugas Akhir untuk
-                                                    mahasiswa akhir?</p>
+                                                <p class="m-0 bold-faq"> Bagaimana cara menjadwalkan sesi bimbingan?</p>
                                             </div>
                                             <div class="col-md-2 d-flex align-items-center justify-content-end">
                                                 <i class="fa fa-plus-circle ikon-plus" data-target="card-bodyg3"
@@ -482,7 +413,6 @@
                                     </div>
                                     <div class="card mb-2" id="card-bodyg3" style="display: none;">
                                         <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
                                             <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
                                                 lorem fringilla. Non
                                                 pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
@@ -508,7 +438,29 @@
                                     </div>
                                     <div class="card mb-2" id="card-bodyg4" style="display: none;">
                                         <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
+                                            <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
+                                                lorem fringilla. Non
+                                                pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
+                                                placerat sagittis urna. Convallis tortor gravida dapibus pellentesque mattis
+                                                eget bibendum. Viverra rutrum massa porta nisl in leo. Lectus massa ipsum vel in
+                                                tellus amet nulla at pharetra. Lectus suspendisse sit ultricies aliquet volutpat
+                                                morbi.Lorem ipsum dolor sit amet consectetur. Nullam vulputate et lorem
+                                                fringilla.</p>
+                                        </div>
+                                    </div>
+                                    <div class="card mb-2" style="border-radius: 8px;">
+                                        <div class="row align-items-center px-3 py-3">
+                                            <div class="col-md-10 d-flex align-items-center">
+                                                <p class="m-0 bold-faq"> Bagaimana cara dosen menerima atau menolak mahasiswa bimbingan?</p>
+                                            </div>
+                                            <div class="col-md-2 d-flex align-items-center justify-content-end">
+                                                <i class="fa fa-plus-circle ikon-plus" data-target="card-bodyg5"
+                                                    onclick="toggleCard(this)"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card mb-2" id="card-bodyg5" style="display: none;">
+                                        <div class="px-3 py-3">
                                             <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
                                                 lorem fringilla. Non
                                                 pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
@@ -525,14 +477,13 @@
                                                 <p class="m-0 bold-faq"> Bagaimana cara menjadwalkan sesi bimbingan?</p>
                                             </div>
                                             <div class="col-md-2 d-flex align-items-center justify-content-end">
-                                                <i class="fa fa-plus-circle ikon-plus" data-target="card-bodyg5"
+                                                <i class="fa fa-plus-circle ikon-plus" data-target="card-bodyg6"
                                                     onclick="toggleCard(this)"></i>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="card mb-2" id="card-bodyg5" style="display: none;">
+                                    <div class="card mb-2" id="card-bodyg6" style="display: none;">
                                         <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
                                             <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
                                                 lorem fringilla. Non
                                                 pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
@@ -550,8 +501,7 @@
                                     <div class="card mb-2" style="border-radius: 8px;">
                                         <div class="row align-items-center px-3 py-3">
                                             <div class="col-md-10 d-flex align-items-center">
-                                                <p class="m-0 bold-faq"> Bagaimana menggunakan Sistem Tugas Akhir untuk
-                                                    mahasiswa akhir?</p>
+                                                <p class="m-0 bold-faq"> Di mana saya bisa melihat jadwal seminar proposal?</p>
                                             </div>
                                             <div class="col-md-2 d-flex align-items-center justify-content-end">
                                                 <i class="fa fa-plus-circle ikon-plus" data-target="card-bodysc1"
@@ -561,7 +511,6 @@
                                     </div>
                                     <div class="card mb-2" id="card-bodysc1" style="display: none;">
                                         <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
                                             <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
                                                 lorem fringilla. Non
                                                 pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
@@ -575,8 +524,7 @@
                                     <div class="card mb-2" style="border-radius: 8px;">
                                         <div class="row align-items-center px-3 py-3">
                                             <div class="col-md-10 d-flex align-items-center">
-                                                <p class="m-0 bold-faq"> Bagaimana menggunakan Sistem Tugas Akhir untuk
-                                                    mahasiswa akhir?</p>
+                                                <p class="m-0 bold-faq"> Apa tenggat waktu untuk mengumpulkan skripsi?</p>
                                             </div>
                                             <div class="col-md-2 d-flex align-items-center justify-content-end">
                                                 <i class="fa fa-plus-circle ikon-plus" data-target="card-bodysc2"
@@ -586,32 +534,6 @@
                                     </div>
                                     <div class="card mb-2" id="card-bodysc2" style="display: none;">
                                         <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
-                                            <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
-                                                lorem fringilla. Non
-                                                pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
-                                                placerat sagittis urna. Convallis tortor gravida dapibus pellentesque mattis
-                                                eget bibendum. Viverra rutrum massa porta nisl in leo. Lectus massa ipsum vel in
-                                                tellus amet nulla at pharetra. Lectus suspendisse sit ultricies aliquet volutpat
-                                                morbi.Lorem ipsum dolor sit amet consectetur. Nullam vulputate et lorem
-                                                fringilla.</p>
-                                        </div>
-                                    </div>
-                                    <div class="card mb-2" style="border-radius: 8px;">
-                                        <div class="row align-items-center px-3 py-3">
-                                            <div class="col-md-10 d-flex align-items-center">
-                                                <p class="m-0 bold-faq"> Bagaimana menggunakan Sistem Tugas Akhir untuk
-                                                    mahasiswa akhir?</p>
-                                            </div>
-                                            <div class="col-md-2 d-flex align-items-center justify-content-end">
-                                                <i class="fa fa-plus-circle ikon-plus" data-target="card-bodysc3"
-                                                    onclick="toggleCard(this)"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card mb-2" id="card-bodysc3" style="display: none;">
-                                        <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
                                             <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
                                                 lorem fringilla. Non
                                                 pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
@@ -637,7 +559,6 @@
                                     </div>
                                     <div class="card mb-2" id="card-bodysc4" style="display: none;">
                                         <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
                                             <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
                                                 lorem fringilla. Non
                                                 pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
@@ -661,7 +582,6 @@
                                     </div>
                                     <div class="card mb-2" id="card-bodysc5" style="display: none;">
                                         <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
                                             <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
                                                 lorem fringilla. Non
                                                 pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
@@ -679,8 +599,7 @@
                                     <div class="card mb-2" style="border-radius: 8px;">
                                         <div class="row align-items-center px-3 py-3">
                                             <div class="col-md-10 d-flex align-items-center">
-                                                <p class="m-0 bold-faq"> Bagaimana menggunakan Sistem Tugas Akhir untuk
-                                                    mahasiswa akhir?</p>
+                                                <p class="m-0 bold-faq">  Apa kebijakan mengenai plagiarisme dalam penulisan skripsi?</p>
                                             </div>
                                             <div class="col-md-2 d-flex align-items-center justify-content-end">
                                                 <i class="fa fa-plus-circle ikon-plus" data-target="card-bodyrl1"
@@ -690,7 +609,6 @@
                                     </div>
                                     <div class="card mb-2" id="card-bodyrl1" style="display: none;">
                                         <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
                                             <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
                                                 lorem fringilla. Non
                                                 pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
@@ -704,8 +622,7 @@
                                     <div class="card mb-2" style="border-radius: 8px;">
                                         <div class="row align-items-center px-3 py-3">
                                             <div class="col-md-10 d-flex align-items-center">
-                                                <p class="m-0 bold-faq"> Bagaimana menggunakan Sistem Tugas Akhir untuk
-                                                    mahasiswa akhir?</p>
+                                                <p class="m-0 bold-faq"> Bagaimana jika saya tidak bisa mengikuti seminar proposal sesuai jadwal?</p>
                                             </div>
                                             <div class="col-md-2 d-flex align-items-center justify-content-end">
                                                 <i class="fa fa-plus-circle ikon-plus" data-target="card-bodyrl2"
@@ -715,32 +632,6 @@
                                     </div>
                                     <div class="card mb-2" id="card-bodyrl2" style="display: none;">
                                         <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
-                                            <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
-                                                lorem fringilla. Non
-                                                pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
-                                                placerat sagittis urna. Convallis tortor gravida dapibus pellentesque mattis
-                                                eget bibendum. Viverra rutrum massa porta nisl in leo. Lectus massa ipsum vel in
-                                                tellus amet nulla at pharetra. Lectus suspendisse sit ultricies aliquet volutpat
-                                                morbi.Lorem ipsum dolor sit amet consectetur. Nullam vulputate et lorem
-                                                fringilla.</p>
-                                        </div>
-                                    </div>
-                                    <div class="card mb-2" style="border-radius: 8px;">
-                                        <div class="row align-items-center px-3 py-3">
-                                            <div class="col-md-10 d-flex align-items-center">
-                                                <p class="m-0 bold-faq"> Bagaimana menggunakan Sistem Tugas Akhir untuk
-                                                    mahasiswa akhir?</p>
-                                            </div>
-                                            <div class="col-md-2 d-flex align-items-center justify-content-end">
-                                                <i class="fa fa-plus-circle ikon-plus" data-target="card-bodyrl3"
-                                                    onclick="toggleCard(this)"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card mb-2" id="card-bodyrl3" style="display: none;">
-                                        <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
                                             <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
                                                 lorem fringilla. Non
                                                 pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
@@ -766,7 +657,6 @@
                                     </div>
                                     <div class="card mb-2" id="card-bodyrl4" style="display: none;">
                                         <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
                                             <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
                                                 lorem fringilla. Non
                                                 pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna
@@ -790,7 +680,6 @@
                                     </div>
                                     <div class="card mb-2" id="card-bodyrl5" style="display: none;">
                                         <div class="px-3 py-3">
-                                            <h5 class="text-dark">Tittle</h5>
                                             <p class="text-dark">Lorem ipsum dolor sit amet consectetur. Nullam vulputate et
                                                 lorem fringilla. Non
                                                 pellentesque tortor id elit lobortis eu vulputate augue egestas. Facilisi magna

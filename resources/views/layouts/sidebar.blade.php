@@ -25,7 +25,7 @@
                 @role('super-admin')
                     <li><a class="nav-link text-dark" href="{{ route('proposal-skripsi-dosen') }}">Proposal</a></li>
                 @endrole
-                <li><a class="nav-link text-dark" href="{{ route('user.index') }}">Laporan Skripsi</a></li>
+                <li><a class="nav-link text-dark" href="#">Laporan Skripsi</a></li>
             </ul>
         </li>
         @php
