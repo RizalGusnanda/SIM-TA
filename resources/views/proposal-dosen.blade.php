@@ -765,29 +765,66 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th class="text-center">
-                                            <div class="custom-checkbox custom-control">
-                                                <input type="checkbox" data-checkboxes="mygroup" data-checkbox-role="dad"
-                                                    class="custom-control-input" id="checkbox-all">
-                                                <label for="checkbox-all" class="custom-control-label">&nbsp;</label>
+                                        <th>
+                                            <div class="d-flex justify-content-between">
+                                                <span>NO</span>
+                                                <span>
+                                                    <i class="fas fa-long-arrow-alt-up"></i>
+                                                    <i class="fas fa-long-arrow-alt-down"></i>
+                                                </span>
                                             </div>
                                         </th>
-                                        <th>Prodi</th>
-                                        <th>Nama Mahasiswa</th>
-                                        <th>Judul</th>
-                                        <th>Pembimbing</th>
-                                        <th>Status</th>
+                                        <th>
+                                            <div class="d-flex justify-content-between">
+                                                <span>Prodi</span>
+                                                <span>
+                                                    <i class="fas fa-long-arrow-alt-up"></i>
+                                                    <i class="fas fa-long-arrow-alt-down"></i>
+                                                </span>
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div class="d-flex justify-content-between">
+                                                <span>Nama Mahasiswa</span>
+                                                <span>
+                                                    <i class="fas fa-long-arrow-alt-up"></i>
+                                                    <i class="fas fa-long-arrow-alt-down"></i>
+                                                </span>
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div class="d-flex justify-content-between">
+                                                <span>Judul</span>
+                                                <span>
+                                                    <i class="fas fa-long-arrow-alt-up"></i>
+                                                    <i class="fas fa-long-arrow-alt-down"></i>
+                                                </span>
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div class="d-flex justify-content-between">
+                                                <span>Pembimbing</span>
+                                                <span>
+                                                    <i class="fas fa-long-arrow-alt-up"></i>
+                                                    <i class="fas fa-long-arrow-alt-down"></i>
+                                                </span>
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div class="d-flex justify-content-between">
+                                                <span>Status</span>
+                                                <span>
+                                                    <i class="fas fa-long-arrow-alt-up"></i>
+                                                    <i class="fas fa-long-arrow-alt-down"></i>
+                                                </span>
+                                            </div>
+                                        </th>
                                         <th>Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="p-0 text-center">
-                                            <div class="custom-checkbox custom-control">
-                                                <input type="checkbox" data-checkboxes="mygroup"
-                                                    class="custom-control-input" id="checkbox-1">
-                                                <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
-                                            </div>
+                                        <td>1</td>
                                         </td>
                                         <td>D-IV SIB</td>
                                         <td>Aisyah</td>
@@ -813,13 +850,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="p-0 text-center">
-                                            <div class="custom-checkbox custom-control">
-                                                <input type="checkbox" data-checkboxes="mygroup"
-                                                    class="custom-control-input" id="checkbox-1">
-                                                <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
-                                            </div>
-                                        </td>
+                                        <td>2</td>
                                         <td>D-IV TI</td>
                                         <td>Putri Maulida</td>
                                         <td>Pengembangan Sistem E-Learning</td>
@@ -875,29 +906,57 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th class="text-center">
-                                            <div class="custom-checkbox custom-control">
-                                                <input type="checkbox" data-checkboxes="mygroup" data-checkbox-role="dad"
-                                                    class="custom-control-input" id="checkbox-all">
-                                                <label for="checkbox-all" class="custom-control-label">&nbsp;</label>
+                                        <th>
+                                            <div class="d-flex justify-content-between">
+                                                <span>NO</span>
+                                                <span>
+                                                    <i class="fas fa-long-arrow-alt-up"></i>
+                                                    <i class="fas fa-long-arrow-alt-down"></i>
+                                                </span>
                                             </div>
                                         </th>
-                                        <th>Prodi</th>
-                                        <th>Nama Mahasiswa</th>
-                                        <th>Judul</th>
-                                        <th>Status Penilaian</th>
+                                        <th>
+                                            <div class="d-flex justify-content-between">
+                                                <span>Prodi</span>
+                                                <span>
+                                                    <i class="fas fa-long-arrow-alt-up"></i>
+                                                    <i class="fas fa-long-arrow-alt-down"></i>
+                                                </span>
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div class="d-flex justify-content-between">
+                                                <span>Nama Mahasiswa</span>
+                                                <span>
+                                                    <i class="fas fa-long-arrow-alt-up"></i>
+                                                    <i class="fas fa-long-arrow-alt-down"></i>
+                                                </span>
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div class="d-flex justify-content-between">
+                                                <span>Judul</span>
+                                                <span>
+                                                    <i class="fas fa-long-arrow-alt-up"></i>
+                                                    <i class="fas fa-long-arrow-alt-down"></i>
+                                                </span>
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div class="d-flex justify-content-between">
+                                                <span>Status Penilaian</span>
+                                                <span>
+                                                    <i class="fas fa-long-arrow-alt-up"></i>
+                                                    <i class="fas fa-long-arrow-alt-down"></i>
+                                                </span>
+                                            </div>
+                                        </th>
                                         <th>Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="p-0 text-center">
-                                            <div class="custom-checkbox custom-control">
-                                                <input type="checkbox" data-checkboxes="mygroup"
-                                                    class="custom-control-input" id="checkbox-1">
-                                                <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
-                                            </div>
-                                        </td>
+                                        <td>1</td>
                                         <td>D-IV SIB</td>
                                         <td>Aisyah</td>
                                         <td>Sistem Manajemen Server JTI</td>
@@ -916,13 +975,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="p-0 text-center">
-                                            <div class="custom-checkbox custom-control">
-                                                <input type="checkbox" data-checkboxes="mygroup"
-                                                    class="custom-control-input" id="checkbox-1">
-                                                <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
-                                            </div>
-                                        </td>
+                                        <td>2</td>
                                         <td>D-IV SIB</td>
                                         <td>Putri Maulida</td>
                                         <td>Pengembangan Sistem E-Learning</td>
@@ -972,30 +1025,66 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th class="text-center">
-                                            <div class="custom-checkbox custom-control">
-                                                <input type="checkbox" data-checkboxes="mygroup" data-checkbox-role="dad"
-                                                    class="custom-control-input" id="checkbox-all">
-                                                <label for="checkbox-all" class="custom-control-label">&nbsp;</label>
+                                        <th>
+                                            <div class="d-flex justify-content-between">
+                                                <span>NO</span>
+                                                <span>
+                                                    <i class="fas fa-long-arrow-alt-up"></i>
+                                                    <i class="fas fa-long-arrow-alt-down"></i>
+                                                </span>
                                             </div>
                                         </th>
-                                        <th>Tanggal Submit</th>
-                                        <th>Prodi</th>
-                                        <th>Nama Mahasiswa</th>
-                                        <th>Judul</th>
-                                        <th>Status</th>
+                                        <th>
+                                            <div class="d-flex justify-content-between">
+                                                <span>Tanggal Submit</span>
+                                                <span>
+                                                    <i class="fas fa-long-arrow-alt-up"></i>
+                                                    <i class="fas fa-long-arrow-alt-down"></i>
+                                                </span>
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div class="d-flex justify-content-between">
+                                                <span>Prodi</span>
+                                                <span>
+                                                    <i class="fas fa-long-arrow-alt-up"></i>
+                                                    <i class="fas fa-long-arrow-alt-down"></i>
+                                                </span>
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div class="d-flex justify-content-between">
+                                                <span>Nama Mahasiswa</span>
+                                                <span>
+                                                    <i class="fas fa-long-arrow-alt-up"></i>
+                                                    <i class="fas fa-long-arrow-alt-down"></i>
+                                                </span>
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div class="d-flex justify-content-between">
+                                                <span>Judul</span>
+                                                <span>
+                                                    <i class="fas fa-long-arrow-alt-up"></i>
+                                                    <i class="fas fa-long-arrow-alt-down"></i>
+                                                </span>
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div class="d-flex justify-content-between">
+                                                <span>Status</span>
+                                                <span>
+                                                    <i class="fas fa-long-arrow-alt-up"></i>
+                                                    <i class="fas fa-long-arrow-alt-down"></i>
+                                                </span>
+                                            </div>
+                                        </th>
                                         <th>Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="p-0 text-center">
-                                            <div class="custom-checkbox custom-control">
-                                                <input type="checkbox" data-checkboxes="mygroup"
-                                                    class="custom-control-input" id="checkbox-1">
-                                                <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
-                                            </div>
-                                        </td>
+                                        <td>1</td>
                                         <td>2023 - 12 - 20</td>
                                         <td>D-IV SIB</td>
                                         <td>Aisyah</td>
@@ -1045,30 +1134,66 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th class="text-center">
-                                            <div class="custom-checkbox custom-control">
-                                                <input type="checkbox" data-checkboxes="mygroup" data-checkbox-role="dad"
-                                                    class="custom-control-input" id="checkbox-all">
-                                                <label for="checkbox-all" class="custom-control-label">&nbsp;</label>
+                                        <th>
+                                            <div class="d-flex justify-content-between">
+                                                <span>NO</span>
+                                                <span>
+                                                    <i class="fas fa-long-arrow-alt-up"></i>
+                                                    <i class="fas fa-long-arrow-alt-down"></i>
+                                                </span>
                                             </div>
                                         </th>
-                                        <th>Tanggal Submit</th>
-                                        <th>Prodi</th>
-                                        <th>Nama Mahasiswa</th>
-                                        <th>Judul</th>
-                                        <th>Status</th>
+                                        <th>
+                                            <div class="d-flex justify-content-between">
+                                                <span>Tanggal Submit</span>
+                                                <span>
+                                                    <i class="fas fa-long-arrow-alt-up"></i>
+                                                    <i class="fas fa-long-arrow-alt-down"></i>
+                                                </span>
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div class="d-flex justify-content-between">
+                                                <span>Prodi</span>
+                                                <span>
+                                                    <i class="fas fa-long-arrow-alt-up"></i>
+                                                    <i class="fas fa-long-arrow-alt-down"></i>
+                                                </span>
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div class="d-flex justify-content-between">
+                                                <span>Nama Mahasiswa</span>
+                                                <span>
+                                                    <i class="fas fa-long-arrow-alt-up"></i>
+                                                    <i class="fas fa-long-arrow-alt-down"></i>
+                                                </span>
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div class="d-flex justify-content-between">
+                                                <span>Judul</span>
+                                                <span>
+                                                    <i class="fas fa-long-arrow-alt-up"></i>
+                                                    <i class="fas fa-long-arrow-alt-down"></i>
+                                                </span>
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div class="d-flex justify-content-between">
+                                                <span>Status</span>
+                                                <span>
+                                                    <i class="fas fa-long-arrow-alt-up"></i>
+                                                    <i class="fas fa-long-arrow-alt-down"></i>
+                                                </span>
+                                            </div>
+                                        </th>
                                         <th>Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="p-0 text-center">
-                                            <div class="custom-checkbox custom-control">
-                                                <input type="checkbox" data-checkboxes="mygroup"
-                                                    class="custom-control-input" id="checkbox-1">
-                                                <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
-                                            </div>
-                                        </td>
+                                        <td>1</td>
                                         <td>2023 - 12 - 20</td>
                                         <td>D-IV SIB</td>
                                         <td>Aisyah</td>
