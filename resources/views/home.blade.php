@@ -218,7 +218,7 @@
                                         </p>
                                         <p style="margin-bottom: -6px; font-size: 12px; line-height: 18px;">Ajukan topik
                                             proposal</p>
-                                        <a href=""
+                                        <a href="informasi-dosen"
                                             style="text-decoration: none; font-weight: 600; font-size: 11px; color: #AAAAAA;">Ajukan
                                             topik</a>
                                     </div>
@@ -233,7 +233,7 @@
                                         </p>
                                         <p style="margin-bottom: -6px; font-size: 12px; line-height: 18px;">Validasi log
                                             bimbingan</p>
-                                        <a href=""
+                                        <a href="/pra-seminar-proposal"
                                             style="text-decoration: none; font-weight: 600; font-size: 11px; color: #AAAAAA;">Validasi
                                             sekarang</a>
                                     </div>

@@ -57,7 +57,7 @@
             <ul class="dropdown-menu">
                 <li><a class="nav-link text-dark" href="{{ route('pra-seminar-proposal') }}">Pra Seminar Proposal</a>
                 </li>
-                <li><a class="nav-link text-dark" href="#">Sidang Skirpsi</a></li>
+                <li><a class="nav-link text-dark" href="{{ route('bimbingan-skripsi') }}">Sidang Skirpsi</a></li>
             </ul>
         </li>
         <li>

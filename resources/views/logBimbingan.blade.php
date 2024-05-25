@@ -295,8 +295,7 @@
             </div>
             <div class="d-flex justify-content-between mb-4">
                 <h2 class="" style="font-weight: 600; font-size: 16px; margin-top: 10px; color:#000000;">
-                    Bimbingan
-                    Proposal</h2>
+                    {{ $title }}</h2>
                 @role('user')
                     <div class="my-auto items-center btn btn-primary rounded-lg py-1.5"
                         style="letter-spacing: 0px !important;">
@@ -676,17 +675,17 @@
 
                 // mengatur badge metode bimbingan
                 var metodeBadge = $('#detailMetodeBimbingan');
-                metodeBadge.removeClass('badge-online badge-warning badge-success');
+                metodeBadge.removeClass('badge-online badge-online badge-online');
                 metodeBadge.empty();
 
                 if (metodeBimbingan.toLowerCase() === 'online') {
                     metodeBadge.addClass('badge-online rounded-lg');
                     metodeBadge.html('<i class="fas fa-video"></i> Online');
                 } else if (metodeBimbingan.toLowerCase() === 'offline') {
-                    metodeBadge.addClass('badge-warning rounded-lg');
+                    metodeBadge.addClass('badge-online rounded-lg');
                     metodeBadge.html('<i class="fas fa-video-slash"></i> Offline');
                 } else if (metodeBimbingan.toLowerCase() === 'whatsapp') {
-                    metodeBadge.addClass('badge-success rounded-lg');
+                    metodeBadge.addClass('badge-online rounded-lg');
                     metodeBadge.html('<i class="fab fa-whatsapp"></i> WhatsApp');
                 }
 

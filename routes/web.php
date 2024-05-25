@@ -32,8 +32,13 @@ Route::get('/', function () {
 });
 
 Route::get('/pra-seminar-proposal', function(){
-    return view('logBimbingan');
+    return view('logBimbingan', ['title' => 'Bimbingan Proposal']);
 })->name('pra-seminar-proposal');
+
+Route::get('/bimbingan-skripsi', function(){
+    return view('logBimbingan', ['title' => 'Bimbingan Skripsi']);
+})->name('bimbingan-skripsi');
+
 
 Route::get('/profil', function(){
     return view('profile');
