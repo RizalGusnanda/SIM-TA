@@ -342,30 +342,57 @@
                                     <table class="table">
                                         <thead>
                                             <tr>
-                                                <th class="text-center">
-                                                    <div class="custom-checkbox custom-control">
-                                                        <input type="checkbox" data-checkboxes="mygroup"
-                                                            data-checkbox-role="dad" class="custom-control-input"
-                                                            id="checkbox-all">
-                                                        <label for="checkbox-all" class="custom-control-label">&nbsp;</label>
+                                                <th>
+                                                    <div class="d-flex justify-content-between">
+                                                        <span>NO</span>
+                                                        <span>
+                                                            <i class="fas fa-long-arrow-alt-up"></i>
+                                                            <i class="fas fa-long-arrow-alt-down"></i>
+                                                        </span>
                                                     </div>
                                                 </th>
-                                                <th>Tanggal</th>
-                                                <th>Topik</th>
-                                                <th>Dosen Pembimbing</th>
-                                                <th>Status</th>
+                                                <th>
+                                                    <div class="d-flex justify-content-between">
+                                                        <span>Tanggal</span>
+                                                        <span>
+                                                            <i class="fas fa-long-arrow-alt-up"></i>
+                                                            <i class="fas fa-long-arrow-alt-down"></i>
+                                                        </span>
+                                                    </div>
+                                                </th>
+                                                <th>
+                                                    <div class="d-flex justify-content-between">
+                                                        <span>Topik</span>
+                                                        <span>
+                                                            <i class="fas fa-long-arrow-alt-up"></i>
+                                                            <i class="fas fa-long-arrow-alt-down"></i>
+                                                        </span>
+                                                    </div>
+                                                </th>
+                                                <th>
+                                                    <div class="d-flex justify-content-between">
+                                                        <span>Dosen Pembimbing</span>
+                                                        <span>
+                                                            <i class="fas fa-long-arrow-alt-up"></i>
+                                                            <i class="fas fa-long-arrow-alt-down"></i>
+                                                        </span>
+                                                    </div>
+                                                </th>
+                                                <th>
+                                                    <div class="d-flex justify-content-between">
+                                                        <span>Status</span>
+                                                        <span>
+                                                            <i class="fas fa-long-arrow-alt-up"></i>
+                                                            <i class="fas fa-long-arrow-alt-down"></i>
+                                                        </span>
+                                                    </div>
+                                                </th>
                                                 <th>Aksi</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td class="p-0 text-center">
-                                                    <div class="custom-checkbox custom-control">
-                                                        <input type="checkbox" data-checkboxes="mygroup"
-                                                            class="custom-control-input" id="checkbox-1">
-                                                        <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
-                                                    </div>
-                                                </td>
+                                                <td>1</td>
                                                 <td>2023-12-20</td>
                                                 <td>Laporan Progress BAB 1</td>
                                                 <td>Anugrah Nur Rahmanto, S.Sn., M.Ds.</td>
@@ -386,13 +413,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="p-0 text-center">
-                                                    <div class="custom-checkbox custom-control">
-                                                        <input type="checkbox" data-checkboxes="mygroup"
-                                                            class="custom-control-input" id="checkbox-1">
-                                                        <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
-                                                    </div>
-                                                </td>
+                                                <td>2</td>
                                                 <td>2024-01-01</td>
                                                 <td>Progress BAB 2</td>
                                                 <td>Anugrah Nur Rahmanto, S.Sn., M.Ds.</td>
@@ -413,13 +434,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="p-0 text-center">
-                                                    <div class="custom-checkbox custom-control">
-                                                        <input type="checkbox" data-checkboxes="mygroup"
-                                                            class="custom-control-input" id="checkbox-1">
-                                                        <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
-                                                    </div>
-                                                </td>
+                                                <td>3</td>
                                                 <td>2024-01-12</td>
                                                 <td>Wawancara Responden</td>
                                                 <td>Anugrah Nur Rahmanto, S.Sn., M.Ds.</td>
@@ -440,13 +455,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="p-0 text-center">
-                                                    <div class="custom-checkbox custom-control">
-                                                        <input type="checkbox" data-checkboxes="mygroup"
-                                                            class="custom-control-input" id="checkbox-1">
-                                                        <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
-                                                    </div>
-                                                </td>
+                                                <td>4</td>
                                                 <td>2024-01-20</td>
                                                 <td>Revisi BAB 2</td>
                                                 <td>Anugrah Nur Rahmanto, S.Sn., M.Ds.</td>
@@ -475,31 +484,68 @@
                                     <table class="table">
                                         <thead>
                                             <tr>
-                                                <th class="text-center">
-                                                    <div class="custom-checkbox custom-control">
-                                                        <input type="checkbox" data-checkboxes="mygroup"
-                                                            data-checkbox-role="dad" class="custom-control-input"
-                                                            id="checkbox-all">
-                                                        <label for="checkbox-all" class="custom-control-label">&nbsp;</label>
+                                                <th>
+                                                    <div class="d-flex justify-content-between">
+                                                        <span>NO</span>
+                                                        <span>
+                                                            <i class="fas fa-long-arrow-alt-up"></i>
+                                                            <i class="fas fa-long-arrow-alt-down"></i>
+                                                        </span>
                                                     </div>
                                                 </th>
-                                                <th>Tanggal</th>
-                                                <th>Prodi</th>
-                                                <th>Nama Mahasiswa</th>
-                                                <th>Topik</th>
-                                                <th>Status</th>
-                                                <th>Aksi</th>
+                                                <th>
+                                                    <div class="d-flex justify-content-between">
+                                                        <span>Tanggal</span>
+                                                        <span>
+                                                            <i class="fas fa-long-arrow-alt-up"></i>
+                                                            <i class="fas fa-long-arrow-alt-down"></i>
+                                                        </span>
+                                                    </div>
+                                                </th>
+                                                <th>
+                                                    <div class="d-flex justify-content-between">
+                                                        <span>Prodi</span>
+                                                        <span>
+                                                            <i class="fas fa-long-arrow-alt-up"></i>
+                                                            <i class="fas fa-long-arrow-alt-down"></i>
+                                                        </span>
+                                                    </div>
+                                                </th>
+                                                <th>
+                                                    <div class="d-flex justify-content-between">
+                                                        <span>Nama Mahasiswa</span>
+                                                        <span>
+                                                            <i class="fas fa-long-arrow-alt-up"></i>
+                                                            <i class="fas fa-long-arrow-alt-down"></i>
+                                                        </span>
+                                                    </div>
+                                                </th>
+                                                <th>
+                                                    <div class="d-flex justify-content-between">
+                                                        <span>Topik</span>
+                                                        <span>
+                                                            <i class="fas fa-long-arrow-alt-up"></i>
+                                                            <i class="fas fa-long-arrow-alt-down"></i>
+                                                        </span>
+                                                    </div>
+                                                </th>
+                                                <th>
+                                                    <div class="d-flex justify-content-between">
+                                                        <span>Status</span>
+                                                        <span>
+                                                            <i class="fas fa-long-arrow-alt-up"></i>
+                                                            <i class="fas fa-long-arrow-alt-down"></i>
+                                                        </span>
+                                                    </div>
+                                                </th>
+                                                <th>
+                                                    Aksi
+                                                </th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td class="p-0 text-center">
-                                                    <div class="custom-checkbox custom-control">
-                                                        <input type="checkbox" data-checkboxes="mygroup"
-                                                            class="custom-control-input" id="checkbox-1">
-                                                        <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
-                                                    </div>
-                                                </td>
+                                                <td>1</td>
                                                 <td>2023-12-21</td>
                                                 <td>D-IV SIB</td>
                                                 <td>Aisyah</td>
@@ -517,13 +563,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="p-0 text-center">
-                                                    <div class="custom-checkbox custom-control">
-                                                        <input type="checkbox" data-checkboxes="mygroup"
-                                                            class="custom-control-input" id="checkbox-1">
-                                                        <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
-                                                    </div>
-                                                </td>
+                                                <td>2</td>
                                                 <td>2023-12-2</td>
                                                 <td>D-IV SIB</td>
                                                 <td>Sugeng</td>
@@ -541,13 +581,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="p-0 text-center">
-                                                    <div class="custom-checkbox custom-control">
-                                                        <input type="checkbox" data-checkboxes="mygroup"
-                                                            class="custom-control-input" id="checkbox-1">
-                                                        <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
-                                                    </div>
-                                                </td>
+                                                <td>3</td>
                                                 <td>2023-12-13</td>
                                                 <td>D-IV SIB</td>
                                                 <td>Rudolf</td>
@@ -565,13 +599,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="p-0 text-center">
-                                                    <div class="custom-checkbox custom-control">
-                                                        <input type="checkbox" data-checkboxes="mygroup"
-                                                            class="custom-control-input" id="checkbox-1">
-                                                        <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
-                                                    </div>
-                                                </td>
+                                                <td>4</td>
                                                 <td>2023-12-15</td>
                                                 <td>D-IV SIB</td>
                                                 <td>Tegar</td>

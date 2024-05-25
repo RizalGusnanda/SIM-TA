@@ -135,13 +135,13 @@
                     <div class="card px-3 py-3">
                         <div class="row mb-0">
                             <div class="col-md-6">
-                                <p class="text-primary bold">Pengembangan</p>
+                                <p class="text-primary bold">Penelitian</p>
                             </div>
                             <div class="col-md-6 text-right">
                                 <span class="badge badge-danger no-border-radius">Telah Diklaim</span>
                             </div>
                         </div>
-                        <p class="mb-1">UI/UX Designer </p>
+                        <p class="mb-1">Internet of Things (IoT) | Keamanan Jaringan</p>
                         <p class="mb-2 text-dark bold">Sistem Manajemen Aset Server Jurusan Teknologi Informasi </p>
                         <div class="row mb-3">
                             <div class="col-md-2">
@@ -157,9 +157,9 @@
                                 data-target="#detailTopikDosenModal"
                                 data-gambar="{{ asset('/assets/img/avatar/avatar-1.png') }}"
                                 data-nama="Ade Ismail S.Kom., M.TI" data-prodi="Teknologi Informasi"
-                                data-jenis="Pengembangan"
+                                data-jenis="Penelitian"
                                 data-judul="Sistem Manajemen Aset Server Jurusan Teknologi Informasi"
-                                data-deskripsi="Deskripsi topik" data-bidang-topik="UI/UX Designer"
+                                data-deskripsi="Deskripsi topik" data-bidang-topik="Internet of Things (IoT), Keamanan Jaringan"
                                 data-status="Telah Diklaim">
                                 Lihat Dosen
                             </a>
@@ -176,19 +176,28 @@
                                 <span class="badge badge-info no-border-radius">Tersedia</span>
                             </div>
                         </div>
-                        <p class="mb-1">UI/UX Designer </p>
-                        <p class="mb-2 text-dark bold">Sistem Manajemen Aset Server Jurusan Teknologi Informasi </p>
+                        <p class="mb-1">Learning Engineering Technology (LET)</p>
+                        <p class="mb-2 text-dark bold">SQLearn Platform Pembelajaran SQL 2024 Topik 3</p>
                         <div class="row mb-3">
                             <div class="col-md-2">
                                 <img alt="image" width="70px;" src="{{ asset('/assets/img/avatar/avatar-1.png') }}"
                                     class="rounded-circle">
                             </div>
                             <div class="col-md-10 align-content-center">
-                                <p class="text-dark medium">Ade Ismail S.Kom., M.TI</p>
+                                <p class="text-dark medium">Annisa Taufika Firdausi, ST., MT.</p>
                             </div>
                         </div>
                         <div class="text-right mt-2">
-                            <a href="#" class="btn btn-primary px-4">Lihat Dosen</a>
+                            <a href="#" class="btn btn-primary px-4 lihat-dosen" data-toggle="modal"
+                                data-target="#detailTopikDosenModal"
+                                data-gambar="{{ asset('/assets/img/avatar/avatar-1.png') }}"
+                                data-nama="Annisa Taufika Firdausi, ST., MT." data-prodi="Teknologi Informasi"
+                                data-jenis="Pengembangan"
+                                data-judul="SQLearn Platform Pembelajaran SQL 2024 Topik 3"
+                                data-deskripsi="Deskripsi topik" data-bidang-topik="Learning Engineering Technology (LET)"
+                                data-status="Tersedia">
+                                Lihat Dosen
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -202,19 +211,28 @@
                                 <span class="badge badge-danger no-border-radius">Telah Diklaim</span>
                             </div>
                         </div>
-                        <p class="mb-1">UI/UX Designer </p>
-                        <p class="mb-2 text-dark bold">Sistem Manajemen Aset Server Jurusan Teknologi Informasi </p>
+                        <p class="mb-1">Learning Engineering Technology (LET)</p>
+                        <p class="mb-2 text-dark bold">SQLearn Platform Pembelajaran SQL 2024 Topik 4</p>
                         <div class="row mb-3">
                             <div class="col-md-2">
                                 <img alt="image" width="70px;" src="{{ asset('/assets/img/avatar/avatar-1.png') }}"
                                     class="rounded-circle">
                             </div>
                             <div class="col-md-10 align-content-center">
-                                <p class="text-dark medium">Ade Ismail S.Kom., M.TI</p>
+                                <p class="text-dark medium">Annisa Taufika Firdausi, ST., MT.</p>
                             </div>
                         </div>
                         <div class="text-right mt-2">
-                            <a href="#" class="btn btn-primary px-4">Lihat Dosen</a>
+                            <a href="#" class="btn btn-primary px-4 lihat-dosen" data-toggle="modal"
+                                data-target="#detailTopikDosenModal"
+                                data-gambar="{{ asset('/assets/img/avatar/avatar-1.png') }}"
+                                data-nama="Annisa Taufika Firdausi, ST., MT." data-prodi="Teknologi Informasi"
+                                data-jenis="Pengembangan"
+                                data-judul="SQLearn Platform Pembelajaran SQL 2024 Topik 4"
+                                data-deskripsi="Deskripsi topik" data-bidang-topik="Learning Engineering Technology (LET)"
+                                data-status="Telah Diklaim">
+                                Lihat Dosen
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -228,19 +246,28 @@
                                 <span class="badge badge-info no-border-radius">Tersedia</span>
                             </div>
                         </div>
-                        <p class="mb-1">UI/UX Designer </p>
-                        <p class="mb-2 text-dark bold">Sistem Manajemen Aset Server Jurusan Teknologi Informasi </p>
+                        <p class="mb-1">Sistem Informasi</p>
+                        <p class="mb-2 text-dark bold">Sistem Informasi E-Office</p>
                         <div class="row mb-3">
                             <div class="col-md-2">
                                 <img alt="image" width="70px;" src="{{ asset('/assets/img/avatar/avatar-1.png') }}"
                                     class="rounded-circle">
                             </div>
                             <div class="col-md-10 align-content-center">
-                                <p class="text-dark medium">Ade Ismail S.Kom., M.TI</p>
+                                <p class="text-dark medium">Moch Zawaruddin Abdullah, S.ST., M.Kom.</p>
                             </div>
                         </div>
                         <div class="text-right mt-2">
-                            <a href="#" class="btn btn-primary px-4">Lihat Dosen</a>
+                            <a href="#" class="btn btn-primary px-4 lihat-dosen" data-toggle="modal"
+                                data-target="#detailTopikDosenModal"
+                                data-gambar="{{ asset('/assets/img/avatar/avatar-1.png') }}"
+                                data-nama="Moch Zawaruddin Abdullah, S.ST., M.Kom." data-prodi="Teknologi Informasi"
+                                data-jenis="Pengembangan"
+                                data-judul="Sistem Informasi E-Office"
+                                data-deskripsi="Deskripsi topik" data-bidang-topik="Sistem Informasi"
+                                data-status="Tersedia">
+                                Lihat Dosen
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -248,14 +275,14 @@
                     <div class="card px-3 py-3">
                         <div class="row mb-0">
                             <div class="col-md-6">
-                                <p class="text-primary bold">Pengembangan</p>
+                                <p class="text-primary bold">Penelitian</p>
                             </div>
                             <div class="col-md-6 text-right">
                                 <span class="badge badge-danger no-border-radius">Telah Diklaim</span>
                             </div>
                         </div>
-                        <p class="mb-1">UI/UX Designer </p>
-                        <p class="mb-2 text-dark bold">Sistem Manajemen Aset Server Jurusan Teknologi Informasi </p>
+                        <p class="mb-1">Sistem Informasi</p>
+                        <p class="mb-2 text-dark bold">Sistem Informasi RPS dan SAP</p>
                         <div class="row mb-3">
                             <div class="col-md-2">
                                 <img alt="image" width="70px;" src="{{ asset('/assets/img/avatar/avatar-1.png') }}"
@@ -266,7 +293,16 @@
                             </div>
                         </div>
                         <div class="text-right mt-2">
-                            <a href="#" class="btn btn-primary px-4">Lihat Dosen</a>
+                            <a href="#" class="btn btn-primary px-4 lihat-dosen" data-toggle="modal"
+                                data-target="#detailTopikDosenModal"
+                                data-gambar="{{ asset('/assets/img/avatar/avatar-1.png') }}"
+                                data-nama="Ade Ismail S.Kom., M.TI" data-prodi="Teknologi Informasi"
+                                data-jenis="Penelitian"
+                                data-judul="Sistem Informasi RPS dan SAP"
+                                data-deskripsi="Deskripsi topik" data-bidang-topik="Sistem Informasi"
+                                data-status="Tidak Tersedia">
+                                Lihat Dosen
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -274,25 +310,34 @@
                     <div class="card px-3 py-3">
                         <div class="row mb-0">
                             <div class="col-md-6">
-                                <p class="text-primary bold">Pengembangan</p>
+                                <p class="text-primary bold">Penelitian</p>
                             </div>
                             <div class="col-md-6 text-right">
                                 <span class="badge badge-danger no-border-radius">Telah Diklaim</span>
                             </div>
                         </div>
-                        <p class="mb-1">UI/UX Designer </p>
-                        <p class="mb-2 text-dark bold">Sistem Manajemen Aset Server Jurusan Teknologi Informasi </p>
+                        <p class="mb-1">Sistem Informasi</p>
+                        <p class="mb-2 text-dark bold">SIB : Sistem Informasi Repository </p>
                         <div class="row mb-3">
                             <div class="col-md-2">
                                 <img alt="image" width="70px;" src="{{ asset('/assets/img/avatar/avatar-1.png') }}"
                                     class="rounded-circle">
                             </div>
                             <div class="col-md-10 align-content-center">
-                                <p class="text-dark medium">Ade Ismail S.Kom., M.TI</p>
+                                <p class="text-dark medium">Mungki Astiningrum, ST., M.Kom.</p>
                             </div>
                         </div>
                         <div class="text-right mt-2">
-                            <a href="#" class="btn btn-primary px-4">Lihat Dosen</a>
+                            <a href="#" class="btn btn-primary px-4 lihat-dosen" data-toggle="modal"
+                                data-target="#detailTopikDosenModal"
+                                data-gambar="{{ asset('/assets/img/avatar/avatar-1.png') }}"
+                                data-nama="Mungki Astiningrum, ST., M.Kom." data-prodi="Teknologi Informasi"
+                                data-jenis="Pengembangan"
+                                data-judul="SIB : Sistem Informasi Repository"
+                                data-deskripsi="Deskripsi topik" data-bidang-topik="Sistem Informasi"
+                                data-status="Tidak Tersedia">
+                                Lihat Dosen
+                            </a>
                         </div>
                     </div>
                 </div>
