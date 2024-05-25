@@ -254,7 +254,7 @@
                                         <span class="badge badge-danger no-border-radius">Telah Diklaim</span>
                                     </div>
                                 </div>
-                                <p class="mb-1">Pengolahan Citra</p>
+                                <p class="mb-1">UI/UX Designer</p>
                                 <p class="mb-2 text-dark bold">Sistem Manajemen Aset Server Jurusan Teknologi Informasi Sistem Manajemen Aset Server Jurusan Teknologi Informasi 
                                 </p>
                                 <div class="row mb-3">
@@ -289,13 +289,6 @@
                                 <h6 class="text-dark">Daftar Usulan Topik</h6>
                             </div>
                             <div class="col-md-6 text-right">
-                                <div class="my-auto items-center btn btn-primary rounded-lg py-1.5 mr-2"
-                                    style="letter-spacing: 0px !important;">
-                                    <i class="fas fa-plus"></i>
-                                    <a class="text-button-sim active px-4" data-toggle="modal"
-                                        data-target="#tambahUsulanTopikModal">
-                                        Tambah</a>
-                                </div>
                                 <div class="my-auto items-center btn btn-light rounded-lg py-1.5"
                                     style="letter-spacing: 0px !important;">
                                     <i class="fas fa-sliders-h text-primary" data-toggle="modal"
