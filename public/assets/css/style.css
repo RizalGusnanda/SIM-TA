@@ -117,7 +117,7 @@ a:not(.btn-social-icon):not(.btn-social):not(.page-link) .fab {
 }
 
 .with-underline {
-    border-bottom: 1px solid #E7E8E9;
+    border-bottom: 1px solid #e7e8e9;
     padding-bottom: 3px;
 }
 
@@ -801,7 +801,7 @@ select.form-control:not([size]):not([multiple]) {
     background-color: #191d21;
 }
 .alert.alert-white {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 /* 3.5 Card */
@@ -1531,8 +1531,8 @@ table tr:hover .table-links {
     background-color: #191d21;
 }
 .badge.badge-online {
-    background-color: #E0ECFC;
-    color: #11468F;
+    background-color: #e0ecfc;
+    color: #11468f;
 }
 
 h1 .badge {
@@ -1924,8 +1924,8 @@ h6 .badge {
 
 .btn-outline-template,
 .btn-outline-template.disabled {
-    border-color: #2360B2;
-    color: #2360B2;
+    border-color: #2360b2;
+    color: #2360b2;
 }
 .btn-outline-template:hover,
 .btn-outline-template:focus,
@@ -1934,7 +1934,7 @@ h6 .badge {
 .btn-outline-template.disabled:focus,
 .btn-outline-template.disabled:active {
     background-color: #2361b22d !important;
-    color: #2360B2;
+    color: #2360b2;
 }
 
 .btn-outline-white,
@@ -3521,8 +3521,8 @@ body.sidebar-mini .main-sidebar .sidebar-menu > li > a.has-dropdown:after {
 }
 body.sidebar-mini .main-sidebar .sidebar-menu > li.active > a {
     box-shadow: 0 4px 8px #acb5f6;
-    background-color: #6777ef;
-    color: #fff;
+    background-color: rgba(219, 227, 238, 1);
+    color: rgba(17, 70, 143, 1);
 }
 body.sidebar-mini .main-sidebar .sidebar-menu > li ul.dropdown-menu {
     position: absolute;
@@ -3555,7 +3555,8 @@ body.sidebar-mini
     li.active
     > a:hover {
     color: #fff;
-    background-color: #6777ef !important;
+    font-weight: 600;
+    background-color: rgba(219, 227, 238, 1) !important;
 }
 body.sidebar-mini .main-sidebar .sidebar-menu > li ul.dropdown-menu li a {
     height: 40px;

@@ -938,4 +938,19 @@
             });
         });
     </script>
+    <script>
+        $(document).ready(function() {
+            var hash = window.location.hash;
+            if (hash) {
+                var targetTab = $('.nav-link[href="' + hash + '"]');
+                if (targetTab.length) {
+                    targetTab.tab('show');
+                }
+            }
+
+            $('.nav-link').on('shown.bs.tab', function(e) {
+                history.replaceState(null, null, e.target.hash);
+            });
+        });
+    </script>
 @endpush

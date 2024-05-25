@@ -110,7 +110,7 @@
                         <div class="d-flex justify-content-between">
                             <div class="mr-4" style="width: 60%;">
                                 <h6 class="text-dark" style="font-size: 16px; font-weight: 600;">Keaktifan Mahasiswa</h6>
-                                <div class="bg-white py-3 px-3">
+                                <div class="bg-white py-3 px-3 rounded" style="height: 100%;">
                                     <div class="d-flex align-items-center justify-content-between mb-3">
                                         <h6 class="text-dark" style="font-size: 14px;">log Bimbingan</h6>
                                         <select
@@ -140,7 +140,7 @@
                             </div>
                             <div class="text-dark">
                                 <h6 style="font-size: 16px; font-weight: 600;">Akses Dokumen Penting</h6>
-                                <div class="bg-white px-3 py-3" style="height: 367px;">
+                                <div class="bg-white px-3 py-3 rounded" style="height: 100%;">
                                     <div class="d-flex align-items-center px-2 py-2 rounded"
                                         style="border: 1px solid #F6F8F9;">
                                         <img src="{{ asset('assets/img/doc-1.svg') }}" class="mr-3" alt=""
@@ -197,7 +197,8 @@
                                         </div>
                                     </div>
                                     <div class="text-right mt-2">
-                                        <a href="" style="font-weight: 600; color: #11468F;">Selengkapnya<i
+                                        <a href=""
+                                            style="font-weight: 600; color: #11468F; text-decoration: none;">Selengkapnya<i
                                                 class="fas fa-chevron-right"></i></a>
                                     </div>
                                 </div>
@@ -205,8 +206,8 @@
                         </div>
                     </div>
                     <div class="col-3">
-                        <h6 class="text-dark" style="font-size: 16px; font-weight: 600;">Keaktifan Mahasiswa</h6>
-                        <div class="py-4 px-4 bg-white">
+                        <h6 class="text-dark" style="font-size: 16px; font-weight: 600;">Linimasa Proposal</h6>
+                        <div class="py-4 px-4 bg-white rounded" style="height: 100%;">
                             <ul class="progress-steps">
                                 <li class="step">
                                     <img src="{{ asset('assets/img/step-image.svg') }}" width="25px;" height="25px;"
@@ -219,7 +220,7 @@
                                         <p style="margin-bottom: -6px; font-size: 12px; line-height: 18px;">Ajukan topik
                                             proposal</p>
                                         <a href="informasi-dosen"
-                                            style="text-decoration: none; font-weight: 600; font-size: 11px; color: #AAAAAA;">Ajukan
+                                            style="text-decoration: none; font-weight: 600; font-size: 11px; color: #2F80ED;">Ajukan
                                             topik</a>
                                     </div>
                                 </li>
@@ -234,7 +235,7 @@
                                         <p style="margin-bottom: -6px; font-size: 12px; line-height: 18px;">Validasi log
                                             bimbingan</p>
                                         <a href="/pra-seminar-proposal"
-                                            style="text-decoration: none; font-weight: 600; font-size: 11px; color: #AAAAAA;">Validasi
+                                            style="text-decoration: none; font-weight: 600; font-size: 11px; color: #2F80ED;">Validasi
                                             sekarang</a>
                                     </div>
                                 </li>
@@ -248,8 +249,8 @@
                                         </p>
                                         <p style="margin-bottom: -6px; font-size: 12px; line-height: 18px;">Lihat jadwal
                                             seminar proposal</p>
-                                        <a href=""
-                                            style="text-decoration: none; font-weight: 600; font-size: 11px; color: #AAAAAA;">Lihat
+                                        <a href="/proposal-skripsi#proposal"
+                                            style="text-decoration: none; font-weight: 600; font-size: 11px; color: #2F80ED;">Lihat
                                             Jadwal</a>
                                     </div>
                                 </li>
@@ -263,8 +264,8 @@
                                         </p>
                                         <p style="margin-bottom: -6px; font-size: 12px; line-height: 18px;">Validasi berita
                                             acara</p>
-                                        <a href=""
-                                            style="text-decoration: none; font-weight: 600; font-size: 11px; color: #AAAAAA;">Validasi
+                                        <a href="/proposal-skripsi#daftar"
+                                            style="text-decoration: none; font-weight: 600; font-size: 11px; color: #2F80ED;">Validasi
                                             sekarang</a>
                                     </div>
                                 </li>
@@ -278,8 +279,8 @@
                                         </p>
                                         <p style="margin-bottom: -6px; font-size: 12px; line-height: 18px;">Validasi Revisi
                                             Proposal</p>
-                                        <a href=""
-                                            style="text-decoration: none; font-weight: 600; font-size: 11px; color: #AAAAAA;">Lihat
+                                        <a href="/proposal-skripsi#laksana"
+                                            style="text-decoration: none; font-weight: 600; font-size: 11px; color: #2F80ED;">Lihat
                                             Berita Acara</a>
                                     </div>
                                 </li>
@@ -293,7 +294,7 @@
                                         </p>
                                         <p style="margin-bottom: -6px; font-size: 12px; line-height: 18px;">Validasi revisi
                                             final proposal</p>
-                                        <a href=""
+                                        <a href="/proposal-skripsi#laksana"
                                             style="text-decoration: none; font-weight: 600; font-size: 11px; color: #2F80ED;">Validasi
                                             sekarang</a>
                                     </div>
@@ -303,10 +304,10 @@
                         </div>
                     </div>
                 </div>
-                <h6 class="text-dark mt-4" style="font-size: 16px; font-weight: 600;">Informasi Terkini</h6>
+                <h6 class="text-dark" style="font-size: 16px; font-weight: 600; margin-top: 60px;">Informasi Terkini</h6>
                 <div class="row">
                     <div class="col">
-                        <div class="card px-3 py-3">
+                        <div class="card rounded px-3 py-3">
                             <a href="" id="lihatInformasi" data-toggle="modal" data-target="#lihatInformasiModal"
                                 class="py-1" style="border-left: 4px solid #11468F; text-decoration: none;">
                                 <div class="d-flex align-items-center justify-content-between pl-3"
@@ -337,7 +338,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card px-3 py-3">
+                        <div class="card rounded px-3 py-3">
                             <a href="" id="lihatInformasi" data-toggle="modal" data-target="#lihatInformasiModal"
                                 class="py-1" style="border-left: 4px solid #11468F; text-decoration: none;">
                                 <div class="d-flex align-items-center justify-content-between pl-3">
@@ -471,7 +472,7 @@
             top: 0;
             left: 12.5px;
             width: 2px;
-            height: 90%;
+            height: 88%;
             background: #ddd;
             z-index: 0;
         }
@@ -509,6 +510,7 @@
     </style>
 @endpush
 @push('customScript')
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
         document.getElementById('toggleReminder').addEventListener('change', function() {
             if (this.checked) {

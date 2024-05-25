@@ -4,7 +4,7 @@
         <a href="index.html" class="ml-2"
             style="font-size: 16px; font-weight:700; margin-bottom:-10px; letter-spacing: 0px;">SIM-TA</a>
     </div>
-    <div class="sidebar-brand sidebar-brand-sm">
+    <div class="sidebar-brand sidebar-brand-sm" style="margin-top: 20px;">
         <img src="{{ asset('../assets/img/polinema.png') }}" alt="logo" width="40">
     </div>
     <ul class="sidebar-menu">
@@ -57,7 +57,7 @@
             <ul class="dropdown-menu">
                 <li><a class="nav-link text-dark" href="{{ route('pra-seminar-proposal') }}">Pra Seminar Proposal</a>
                 </li>
-                <li><a class="nav-link text-dark" href="{{ route('bimbingan-skripsi') }}">Sidang Skirpsi</a></li>
+                {{-- <li><a class="nav-link text-dark" href="{{ route('bimbingan-skripsi') }}">Sidang Skirpsi</a></li> --}}
             </ul>
         </li>
         <li>

@@ -1,3 +1,49 @@
+<!-- Modal Lihat Detail Daftar Bimbingan -->
+<div class="modal fade" id="lihatInformasiModal" tabindex="-1" role="dialog" aria-labelledby="lihatInformasiModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header d-flex align-items-center justify-content-between border-bottom pb-4">
+                <h6 class="modal-title text-dark" id="lihatInformasiModalLabel">Detail Informasi Terkini</h6>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="background-color: #FCFDFD">
+                <div class="form-group row with-underline">
+                    <label for="detailOlehInformasi" class="col-3 col-form-label text-dark">
+                        Oleh:</label>
+                    <div class="col-sm-8">
+                        <p id="detailOlehInformasi" class="form-control-plaintext">Panitia D4-TI</p>
+                    </div>
+                </div>
+                <div class="form-group row with-underline">
+                    <label for="detailTanggalInformasi" class="col-3 col-form-label text-dark">
+                        Tanggal:</label>
+                    <div class="col-sm-8">
+                        <p id="detailTanggalInformasi" class="form-control-plaintext">2024-02-20</p>
+                    </div>
+                </div>
+                <div class="form-group row with-underline">
+                    <label for="detailInformasi" class="col-3 col-form-label text-dark">
+                        Informasi:</label>
+                    <div class="col-sm-8">
+                        <p id="detailInformasi" class="form-control-plaintext">Sosialiasai Tugas Akhir 2023</p>
+                    </div>
+                </div>
+                <div class="form-group row with-underline">
+                    <label for="detailDetailInformasi" class="col-3 col-form-label text-dark">
+                        Detail Informasi:</label>
+                    <div class="col-sm-8">
+                        <p id="detailDetailInformasi" class="form-control-plaintext">Materi sosialisasi dan hasil record
+                            dapat diakses melalui tautan ini:<a href="">s.id/sosialisasi-skripsi-2023</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 @extends('layouts.app')
 @section('content')
     <!-- Main Content -->
