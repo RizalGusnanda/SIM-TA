@@ -90,10 +90,10 @@
                             class="nav-link dropdown-toggle nav-link-lg nav-link-user">
                             <img alt="image" src="/assets/img/avatar/avatar-1.png" class="rounded-circle mr-1">
                             @role('user')
-                                <div class="d-sm-none d-lg-inline-block" style="color: #727272;">Hi, Aisyah</div>
+                                <div class="d-sm-none d-lg-inline-block" style="color: #727272;">Aisyah</div>
                             @endrole
                             @role('super-admin')
-                                <div class="d-sm-none d-lg-inline-block" style="color: #727272;">Hi, Eng</div>
+                                <div class="d-sm-none d-lg-inline-block" style="color: #727272;">Dosen</div>
                             @endrole
                         </a>
                         <div class="dropdown-menu dropdown-menu-right px-3 py-3">

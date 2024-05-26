@@ -71,7 +71,7 @@
                                     <div>
                                         <h5 style="font-size: 14px; color: #061932; font-weight: 600;">Kuota Bimbingan</h5>
                                         <p style="margin-bottom: 0px;"><span
-                                                style="font-size: 32px; color: #061932;">7</span>/7 topik
+                                                style="font-size: 32px; color: #061932;">8</span>/14 log tercapai
                                         </p>
                                     </div>
                                     <img src="{{ asset('assets/img/bimbingan.svg') }}" class="ml-4" alt=""
