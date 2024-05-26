@@ -64,6 +64,7 @@
                 <div class="row">
                     <div class="col">
                         {{-- 3 card --}}
+                        @role('super-admin')
                         <div class="d-flex justify-content-between">
                             <div class="card">
                                 <div class="d-flex justify-content-between align-items-center rounded"
@@ -71,7 +72,7 @@
                                     <div>
                                         <h5 style="font-size: 14px; color: #061932; font-weight: 600;">Kuota Bimbingan</h5>
                                         <p style="margin-bottom: 0px;"><span
-                                                style="font-size: 32px; color: #061932;">8</span>/14 log tercapai
+                                                style="font-size: 32px; color: #061932;">7</span>/7 topik
                                         </p>
                                     </div>
                                     <img src="{{ asset('assets/img/bimbingan.svg') }}" class="ml-4" alt=""
@@ -106,6 +107,51 @@
                                 </div>
                             </div>
                         </div>
+                        @endrole
+                        @role('user')
+                        <div class="d-flex justify-content-between">
+                            <div class="card">
+                                <div class="d-flex justify-content-between align-items-center rounded"
+                                    style="padding: 24px 32px;">
+                                    <div>
+                                        <h5 style="font-size: 14px; color: #061932; font-weight: 600;">Kuota Bimbingan</h5>
+                                        <p style="margin-bottom: 0px;"><span
+                                                style="font-size: 32px; color: #061932;">8</span>/14 log tercapai
+                                        </p>
+                                    </div>
+                                    <img src="{{ asset('assets/img/bimbingan.svg') }}" class="ml-4" alt=""
+                                        srcset="">
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="d-flex justify-content-between align-items-center rounded"
+                                    style="padding: 24px 32px;">
+                                    <div>
+                                        <h5 style="font-size: 14px; color: #061932; font-weight: 600;">Seminar Proposal
+                                        </h5>
+                                        <p style="margin-bottom: 0px;">Tahap <t></t><span
+                                                style="font-size: 32px; color: #061932;">1</span>
+                                        </p>
+                                    </div>
+                                    <img src="{{ asset('assets/img/proposal.svg') }}" class="ml-4" alt=""
+                                        srcset="">
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="d-flex justify-content-between align-items-center rounded"
+                                    style="padding: 24px 32px;">
+                                    <div>
+                                        <h5 style="font-size: 14px; color: #061932; font-weight: 600;">Sidang Skripsi</h5>
+                                        <p style="margin-bottom: 0px;">Tahap <t><span
+                                                style="font-size: 32px; color: #061932;">1</span>
+                                        </p>
+                                    </div>
+                                    <img src="{{ asset('assets/img/skripsi.svg') }}" class="ml-4" alt=""
+                                        srcset="">
+                                </div>
+                            </div>
+                        </div>
+                        @endrole
                         {{-- 2 card --}}
                         <div class="d-flex justify-content-between">
                             <div class="mr-4" style="width: 60%;">
