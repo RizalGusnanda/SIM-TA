@@ -153,7 +153,7 @@
                         </select>
                     </div>
                     <div class="modal-footer px-0">
-                        <button type="submit" class="btn btn-primary px-5">Simpan</button>
+                        <button type="button" class="btn btn-primary px-5" id="btnSimpanUsulanTopik">Simpan</button>
                     </div>
                 </form>
             </div>
@@ -167,6 +167,11 @@
         <div class="section-header" style="border-radius: 0px 0px 10px 10px;">
             <h1 class="text-head-sim">Informasi Dosen</h1>
             <div class="section-header-breadcrumb">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12" id="alertContainer">
+                @include('layouts.alert')
             </div>
         </div>
         <div class="section-body bg-white py-3">
@@ -218,7 +223,8 @@
                                     </div>
                                 </div>
                                 <p class="mb-1">UI/UX Designer </p>
-                                <p class="mb-2 text-dark bold">Analisis, Klasifikasi, dan Visualisasi Polusi Udara di Wilayah  Jabodetabek Menggunakan Metode Fuzzy
+                                <p class="mb-2 text-dark bold">Analisis, Klasifikasi, dan Visualisasi Polusi Udara di
+                                    Wilayah Jabodetabek Menggunakan Metode Fuzzy
                                 </p>
                                 <div class="row mb-3">
                                     <div class="col-md-2">
@@ -255,7 +261,8 @@
                                     </div>
                                 </div>
                                 <p class="mb-1">UI/UX Designer</p>
-                                <p class="mb-2 text-dark bold">Sistem Manajemen Aset Server Jurusan Teknologi Informasi Sistem Manajemen Aset Server Jurusan Teknologi Informasi 
+                                <p class="mb-2 text-dark bold">Sistem Manajemen Aset Server Jurusan Teknologi Informasi
+                                    Sistem Manajemen Aset Server Jurusan Teknologi Informasi
                                 </p>
                                 <div class="row mb-3">
                                     <div class="col-md-2">
@@ -311,7 +318,8 @@
                                     </div>
                                 </div>
                                 <p class="mb-1">UI/UX Designer </p>
-                                <p class="mb-2 text-dark bold">Analisis, Klasifikasi, dan Visualisasi Polusi Udara di Wilayah  Jabodetabek Menggunakan Metode Fuzzy
+                                <p class="mb-2 text-dark bold">Analisis, Klasifikasi, dan Visualisasi Polusi Udara di
+                                    Wilayah Jabodetabek Menggunakan Metode Fuzzy
                                 </p>
                                 <div class="row mb-3">
                                     <div class="col-md-2">
@@ -348,7 +356,8 @@
                                     </div>
                                 </div>
                                 <p class="mb-1">Pengolahan Citra</p>
-                                <p class="mb-2 text-dark bold">Laboratorium Virtual Mata Kuliah Pengolahan Citra materi "Filtering Image" menggunakan Flask Python dan Library OpenCV
+                                <p class="mb-2 text-dark bold">Laboratorium Virtual Mata Kuliah Pengolahan Citra materi
+                                    "Filtering Image" menggunakan Flask Python dan Library OpenCV
                                 </p>
                                 <div class="row mb-3">
                                     <div class="col-md-2">
@@ -366,8 +375,8 @@
                                         data-nama="Dr. Eng. Rosa Andrie Asmara, ST., MT." data-prodi="Teknologi Informasi"
                                         data-jenis="Pengembangan"
                                         data-judul="Laboratorium Virtual Mata Kuliah Pengolahan Citra materi Filtering Image menggunakan Flask Python dan Library OpenCV"
-                                        data-deskripsi="Sistem Informasi Laboratorium Virtual Mata Kuliah Pengolahan Citra  materi Binary Morphology. terdapat dua bagian yaitu bagian  pembelajaran dan bagian evaluasi. pada bagian pembelajaran, mahasiswa  akan mempelajari materi2 seperti erosi, dilasi, opening, dan closing.  materi dapat dipelajari secara interaktif, dengan memasukkan parameter2  tertentu." data-bidang-topik="Pengolahan Citra"
-                                        data-status="Tersedia">
+                                        data-deskripsi="Sistem Informasi Laboratorium Virtual Mata Kuliah Pengolahan Citra  materi Binary Morphology. terdapat dua bagian yaitu bagian  pembelajaran dan bagian evaluasi. pada bagian pembelajaran, mahasiswa  akan mempelajari materi2 seperti erosi, dilasi, opening, dan closing.  materi dapat dipelajari secara interaktif, dengan memasukkan parameter2  tertentu."
+                                        data-bidang-topik="Pengolahan Citra" data-status="Tersedia">
                                         Lihat Detail
                                     </a>
                                 </div>
@@ -515,6 +524,30 @@
                 </div>
             </div>
         `);
+            });
+
+            $('#btnSimpanUsulanTopik').click(function() {
+                // Menutup modal
+                $('#tambahUsulanTopikModal').modal('hide');
+
+                // Menambahkan alert setelah modal tertutup
+                setTimeout(function() {
+                    $('#alertContainer').prepend(`
+                        <div class="alert alert-white alert-dismissible fade show" role="alert" style="border-left: 15px solid #2F80ED;">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-check-circle" style="color: #2F80ED; font-size: 1.5rem; margin-right: 20px;"></i>
+                                <div>
+                                    <h6 class="text-dark">Sukses</h6>
+                                    <p class="text-secondary">Data Usulan Topik berhasil ditambahkan.</p>
+                                </div>
+                            </div>
+                            <button type="button" class="close text-secondary" data-dismiss="alert" aria-label="Close"
+                                style="position: absolute; top: 50%; transform: translateY(-50%); right: 1rem;">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                    `);
+                }, 1000);
             });
         });
     </script>
