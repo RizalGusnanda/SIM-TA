@@ -173,7 +173,7 @@
                             <h5 style="font-size: 16px; color: #000; margin-bottom: 0px;" class="mt-2">Detail
                                 Proposal
                             </h5>
-                            <p style="font-size: 12px;" class="my-2">Silahkan lengkapi detail proposal skripsi anda
+                            <p style="font-size: 13px;" class="my-2">Silahkan lengkapi detail proposal skripsi anda
                             </p>
                             <div>
                                 <div class="row mt-3">
@@ -292,7 +292,7 @@
                             <h5 style="font-size: 16px; color: #000; margin-bottom: 0px;" class="mt-2">Pendaftaran
                                 Seminar Proposal
                             </h5>
-                            <p style="font-size: 12px;" class="my-2">Pahami syarat dan ketentuan, sebelum
+                            <p style="font-size: 13px;" class="my-2">Pahami syarat dan ketentuan, sebelum
                                 mendaftar
                                 seminar proposal</p>
                             <div class="rounded py-2" style="border: 1px solid #E7EDF4">
@@ -408,7 +408,7 @@
                                 Seminar
                                 Proposal Skripsi
                             </h5>
-                            <p style="font-size: 12px;" class="my-2">Pahami dengan detail jadwal seminar
+                            <p style="font-size: 13px;" class="my-2">Pahami dengan detail jadwal seminar
                                 proposal skripsi anda sebelum pelaksanaan</p>
                             <div class="rounded" style="border: 1px solid #E7EDF4">
                                 <div class="row px-3 py-2">
@@ -573,7 +573,7 @@
                                 <h5 style="font-size: 16px; color: #000; margin-bottom: 0px;" class="mt-5">Revisi
                                     Proposal Skripsi
                                 </h5>
-                                <p style="font-size: 12px;" class="my-2">Unggah hasil revisi proposal berdasarkan
+                                <p style="font-size: 13px;" class="my-2">Unggah hasil revisi proposal berdasarkan
                                     catatan pembahas dalam seminar.</p>
                                 <div>
                                     <div class="">
@@ -631,7 +631,7 @@
                                         <h5 style="font-size: 16px; color: #000; margin-bottom: 0px;" class="mt-5">
                                             Final Revisi Proposal Skripsi
                                         </h5>
-                                        <p style="font-size: 12px;" class="my-2">Unggah final revisi proposal
+                                        <p style="font-size: 13px;" class="my-2">Unggah final revisi proposal
                                             beserta
                                             lembar pengesahan.</p>
                                         <div

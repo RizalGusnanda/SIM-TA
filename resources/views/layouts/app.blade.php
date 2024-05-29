@@ -88,19 +88,22 @@
 
                     <li class="dropdown"><a href="#" data-toggle="dropdown"
                             class="nav-link dropdown-toggle nav-link-lg nav-link-user">
-                            <img alt="image" src="/assets/img/avatar/avatar-1.png" class="rounded-circle mr-1">
                             @role('user')
+                                <img alt="image" width="30px" height="30px" src="/assets/img/avatar/aisyah.jpg" class="rounded-circle mr-1" style="object-fit: cover">
                                 <div class="d-sm-none d-lg-inline-block" style="color: #727272;">Aisyah</div>
                             @endrole
                             @role('super-admin')
+                                <img alt="image" width="30px" height="30px" src="/assets/img/avatar/rosa.jpeg" class="rounded-circle mr-1" style="object-fit: cover">
                                 <div class="d-sm-none d-lg-inline-block" style="color: #727272;">Dosen</div>
                             @endrole
                         </a>
                         <div class="dropdown-menu dropdown-menu-right px-3 py-3">
                             <div class="text-center">
-                                <img alt="image" width="64px;" src="{{ asset('/assets/img/avatar/avatar-1.png') }}"
-                                    class="rounded-circle">
+
                                 @role('user')
+                                    <img alt="image" width="64px;" height="64px"
+                                        src="{{ asset('/assets/img/avatar/aisyah.jpg') }}" class="rounded-circle"
+                                        style="object-fit: cover">
                                     <p class="text-dark"
                                         style="margin-bottom: 0px; font-size: 14px; font-weight: 600; margin-top: 10px;">
                                         Aisyah Maulina</p>
@@ -108,6 +111,9 @@
                                         21417000008</p>
                                 @endrole
                                 @role('super-admin')
+                                    <img alt="image" width="64px;" height="64px"
+                                        src="{{ asset('/assets/img/avatar/rosa.jpeg') }}" class="rounded-circle"
+                                        style="object-fit: cover">
                                     <p class="text-dark"
                                         style="margin-bottom: 0px; font-size: 14px; font-weight: 600; margin-top: 10px; line-height: 18px;">
                                         DR. Eng. Rosa Andrie Asmara, ST, MT.</p>

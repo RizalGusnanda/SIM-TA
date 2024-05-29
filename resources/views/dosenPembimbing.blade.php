@@ -134,8 +134,8 @@
                         <div class="card px-3 py-3">
                             <div class="row mb-3">
                                 <div class="col-md-6">
-                                    <img alt="image" width="70px;"
-                                        src="{{ asset('/assets/img/avatar/avatar-1.png') }}" class="rounded-circle">
+                                    <img alt="image" width="70px;" height="70px"
+                                        src="{{ asset('/assets/img/avatar/ade.jpeg') }}" class="rounded-circle" style="object-fit: cover">
                                 </div>
                                 <div class="col-md-6 text-right">
                                     <span class="badge badge-danger no-border-radius">Kuota Penuh</span>
@@ -150,7 +150,7 @@
                                 <div class="col-md-6">
                                     <a href="#" class="btn btn-outline-template btn-block lihat-detail"
                                         data-toggle="modal" data-target="#detailDosenModal"
-                                        data-gambar="{{ asset('/assets/img/avatar/avatar-1.png') }}"
+                                        data-gambar="{{ asset('/assets/img/avatar/ade.jpeg') }}"
                                         data-nama="Ade Ismail, S.Kom., M.TI." data-nip="199107042019023456"
                                         data-nidn="0004009101" data-kuota-bimbingan="5" data-jumlah-bimbingan="5"
                                         data-bidang-keahlian="Internet of Things (IoT), Keamanan Jaringan"
@@ -169,8 +169,8 @@
                         <div class="card px-3 py-3">
                             <div class="row mb-3">
                                 <div class="col-md-6">
-                                    <img alt="image" width="70px;"
-                                        src="{{ asset('/assets/img/avatar/avatar-1.png') }}" class="rounded-circle">
+                                    <img alt="image" width="70px;" height="70px"
+                                        src="{{ asset('/assets/img/avatar/agung.jpg') }}" class="rounded-circle" style="object-fit: cover">
                                 </div>
                                 <div class="col-md-6 text-right">
                                     <span class="badge badge-danger no-border-radius">Kuota Penuh</span>
@@ -185,7 +185,7 @@
                                 <div class="col-md-6">
                                     <a href="#" class="btn btn-outline-template btn-block lihat-detail"
                                         data-toggle="modal" data-target="#detailDosenModal"
-                                        data-gambar="{{ asset('/assets/img/avatar/avatar-1.png') }}"
+                                        data-gambar="{{ asset('/assets/img/avatar/agung.jpg') }}"
                                         data-nama="Agung Nugroho Pramudhita, S.T., M.T." data-nip="198902102019031020"
                                         data-nidn="0010028903" data-kuota-bimbingan="3" data-jumlah-bimbingan="3"
                                         data-bidang-keahlian="UI/UX, Forecasting, SPK" data-usulan-topik="-">
@@ -202,8 +202,8 @@
                         <div class="card px-3 py-3">
                             <div class="row mb-3">
                                 <div class="col-md-6">
-                                    <img alt="image" width="70px;"
-                                        src="{{ asset('/assets/img/avatar/avatar-1.png') }}" class="rounded-circle">
+                                    <img alt="image" width="70px;" height="70px"
+                                        src="{{ asset('/assets/img/avatar/ahmad yuli.jpeg') }}" class="rounded-circle" style="object-fit: cover">
                                 </div>
                                 <div class="col-md-6 text-right">
                                     <span class="badge badge-info no-border-radius">Tersedia</span>
@@ -218,7 +218,7 @@
                                 <div class="col-md-6">
                                     <a href="#" class="btn btn-outline-template btn-block lihat-detail"
                                         data-toggle="modal" data-target="#detailDosenModal"
-                                        data-gambar="{{ asset('/assets/img/avatar/avatar-1.png') }}"
+                                        data-gambar="{{ asset('/assets/img/avatar/ahmad yuli.jpeg') }}"
                                         data-nama="Ahmadi Yuli Ananta, ST., M.M." data-nip="198107052005011002"
                                         data-nidn="0005078102" data-kuota-bimbingan="5" data-jumlah-bimbingan="3"
                                         data-bidang-keahlian="UI/UX, Forecasting, SPK" data-usulan-topik="-">
@@ -235,8 +235,8 @@
                         <div class="card px-3 py-3">
                             <div class="row mb-3">
                                 <div class="col-md-6">
-                                    <img alt="image" width="70px;"
-                                        src="{{ asset('/assets/img/avatar/avatar-1.png') }}" class="rounded-circle">
+                                    <img alt="image" width="70px;" height="70px"
+                                        src="{{ asset('/assets/img/avatar/Annisa taufika.jpg') }}" class="rounded-circle" style="object-fit: cover">
                                 </div>
                                 <div class="col-md-6 text-right">
                                     <span class="badge badge-info no-border-radius">Tersedia</span>
@@ -251,7 +251,7 @@
                                 <div class="col-md-6">
                                     <a href="#" class="btn btn-outline-template btn-block lihat-detail"
                                         data-toggle="modal" data-target="#detailDosenModal"
-                                        data-gambar="{{ asset('/assets/img/avatar/avatar-1.png') }}"
+                                        data-gambar="{{ asset('/assets/img/avatar/Annisa taufika.jpg') }}"
                                         data-nama="Annisa Taufika Firdausi, ST., MT." data-nip="198712142019032012"
                                         data-nidn="0014128704" data-kuota-bimbingan="5" data-jumlah-bimbingan="1"
                                         data-bidang-keahlian="Learning Engineering Technology (LET)"
@@ -269,8 +269,8 @@
                         <div class="card px-3 py-3">
                             <div class="row mb-3">
                                 <div class="col-md-6">
-                                    <img alt="image" width="70px;"
-                                        src="{{ asset('/assets/img/avatar/avatar-1.png') }}" class="rounded-circle">
+                                    <img alt="image" width="70px;" height="70px"
+                                        src="{{ asset('/assets/img/avatar/arie rachmad.jpeg') }}" class="rounded-circle" style="object-fit: cover">
                                 </div>
                                 <div class="col-md-6 text-right">
                                     <span class="badge badge-info no-border-radius">Tersedia</span>
@@ -285,7 +285,7 @@
                                 <div class="col-md-6">
                                     <a href="#" class="btn btn-outline-template btn-block lihat-detail"
                                         data-toggle="modal" data-target="#detailDosenModal"
-                                        data-gambar="{{ asset('/assets/img/avatar/avatar-1.png') }}"
+                                        data-gambar="{{ asset('/assets/img/avatar/arie rachmad.jpeg') }}"
                                         data-nama="Arie Rachmad Syulistyo, S.Kom., M.Kom" data-nip="198708242019031010"
                                         data-nidn="0024088701" data-kuota-bimbingan="5" data-jumlah-bimbingan="1"
                                         data-bidang-keahlian="UI/UX, Forecasting, SPK" data-usulan-topik="-">
@@ -302,8 +302,8 @@
                         <div class="card px-3 py-3">
                             <div class="row mb-3">
                                 <div class="col-md-6">
-                                    <img alt="image" width="70px;"
-                                        src="{{ asset('/assets/img/avatar/avatar-1.png') }}" class="rounded-circle">
+                                    <img alt="image" width="70px;" height="70px"
+                                        src="{{ asset('/assets/img/avatar/anugrah.jpg') }}" class="rounded-circle" style="object-fit: cover">
                                 </div>
                                 <div class="col-md-6 text-right">
                                     <span class="badge badge-danger no-border-radius">Kuota Penuh</span>
@@ -318,7 +318,7 @@
                                 <div class="col-md-6">
                                     <a href="#" class="btn btn-outline-template btn-block lihat-detail"
                                         data-toggle="modal" data-target="#detailDosenModal"
-                                        data-gambar="{{ asset('/assets/img/avatar/avatar-1.png') }}"
+                                        data-gambar="{{ asset('/assets/img/avatar/anugrah.jpg') }}"
                                         data-nama="Anugrah Nur Rahmanto, S.Sn., M.Ds." data-nip="199112302019031016"
                                         data-nidn="0030129101" data-kuota-bimbingan="7" data-jumlah-bimbingan="7"
                                         data-bidang-keahlian="UI/UX, Forecasting, SPK" data-usulan-topik="-">
@@ -335,8 +335,8 @@
                         <div class="card px-3 py-3">
                             <div class="row mb-3">
                                 <div class="col-md-6">
-                                    <img alt="image" width="70px;"
-                                        src="{{ asset('/assets/img/avatar/avatar-1.png') }}" class="rounded-circle">
+                                    <img alt="image" width="70px;" height="70px"
+                                        src="{{ asset('/assets/img/avatar/dian.jpg') }}" class="rounded-circle" style="object-fit: cover">
                                 </div>
                                 <div class="col-md-6 text-right">
                                     <span class="badge badge-danger no-border-radius">Kuota Penuh</span>
@@ -351,7 +351,7 @@
                                 <div class="col-md-6">
                                     <a href="#" class="btn btn-outline-template btn-block lihat-detail"
                                         data-toggle="modal" data-target="#detailDosenModal"
-                                        data-gambar="{{ asset('/assets/img/avatar/avatar-1.png') }}"
+                                        data-gambar="{{ asset('/assets/img/avatar/dian.jpg') }}"
                                         data-nama="Dian Hanifudin Subhi, S.Kom., M.Kom." data-nip="198806102019031018"
                                         data-nidn="0010068807" data-kuota-bimbingan="7" data-jumlah-bimbingan="7"
                                         data-bidang-keahlian="UI/UX, Forecasting, SPK" data-usulan-topik="-">
@@ -368,8 +368,8 @@
                         <div class="card px-3 py-3">
                             <div class="row mb-3">
                                 <div class="col-md-6">
-                                    <img alt="image" width="70px;"
-                                        src="{{ asset('/assets/img/avatar/avatar-1.png') }}" class="rounded-circle">
+                                    <img alt="image" width="70px;" height="70px"
+                                        src="{{ asset('/assets/img/avatar/annisa.jpg') }}" class="rounded-circle" style="object-fit: cover">
                                 </div>
                                 <div class="col-md-6 text-right">
                                     <span class="badge badge-danger no-border-radius">Kuota Penuh</span>
@@ -384,7 +384,7 @@
                                 <div class="col-md-6">
                                     <a href="#" class="btn btn-outline-template btn-block lihat-detail"
                                         data-toggle="modal" data-target="#detailDosenModal"
-                                        data-gambar="{{ asset('/assets/img/avatar/avatar-1.png') }}"
+                                        data-gambar="{{ asset('/assets/img/avatar/annisa.jpg') }}"
                                         data-nama="Annisa Puspa Kirana, S. Kom, M.Kom" data-nip="198901232019032016"
                                         data-nidn="0023018906" data-kuota-bimbingan="7" data-jumlah-bimbingan="7"
                                         data-bidang-keahlian="Big Data, Data Mining" data-usulan-topik="-">
@@ -401,8 +401,8 @@
                         <div class="card px-3 py-3">
                             <div class="row mb-3">
                                 <div class="col-md-6">
-                                    <img alt="image" width="70px;"
-                                        src="{{ asset('/assets/img/avatar/avatar-1.png') }}" class="rounded-circle">
+                                    <img alt="image" width="70px;" height="70px"
+                                        src="{{ asset('/assets/img/avatar/mungki.png') }}" class="rounded-circle" style="object-fit: cover">
                                 </div>
                                 <div class="col-md-6 text-right">
                                     <span class="badge badge-info no-border-radius">Tersedia</span>
@@ -417,7 +417,7 @@
                                 <div class="col-md-6">
                                     <a href="#" class="btn btn-outline-template btn-block lihat-detail"
                                         data-toggle="modal" data-target="#detailDosenModal"
-                                        data-gambar="{{ asset('/assets/img/avatar/avatar-1.png') }}"
+                                        data-gambar="{{ asset('/assets/img/avatar/mungki.png') }}"
                                         data-nama="Eka Larasati Amalia, S.ST., MT." data-nip="198807112015042005"
                                         data-nidn="0011078803" data-kuota-bimbingan="7" data-jumlah-bimbingan="3"
                                         data-bidang-keahlian="UI/UX, Forecasting, SPK" data-usulan-topik="-">
@@ -434,8 +434,8 @@
                         <div class="card px-3 py-3">
                             <div class="row mb-3">
                                 <div class="col-md-6">
-                                    <img alt="image" width="70px;"
-                                        src="{{ asset('/assets/img/avatar/avatar-1.png') }}" class="rounded-circle">
+                                    <img alt="image" width="70px;" height="70px"
+                                        src="{{ asset('/assets/img/avatar/dhebys.jpeg') }}" class="rounded-circle" style="object-fit: cover">
                                 </div>
                                 <div class="col-md-6 text-right">
                                     <span class="badge badge-info no-border-radius">Tersedia</span>
@@ -460,8 +460,8 @@
                         <div class="card px-3 py-3">
                             <div class="row mb-3">
                                 <div class="col-md-6">
-                                    <img alt="image" width="70px;"
-                                        src="{{ asset('/assets/img/avatar/avatar-1.png') }}" class="rounded-circle">
+                                    <img alt="image" width="70px;" height="70px"
+                                        src="{{ asset('/assets/img/avatar/budi.png') }}" class="rounded-circle" style="object-fit: cover">
                                 </div>
                                 <div class="col-md-6 text-right">
                                     <span class="badge badge-info no-border-radius">Tersedia</span>
@@ -486,8 +486,8 @@
                         <div class="card px-3 py-3">
                             <div class="row mb-3">
                                 <div class="col-md-6">
-                                    <img alt="image" width="70px;"
-                                        src="{{ asset('/assets/img/avatar/avatar-1.png') }}" class="rounded-circle">
+                                    <img alt="image" width="70px;" height="70px"
+                                        src="{{ asset('/assets/img/avatar/dimas wahyu.jpeg') }}" class="rounded-circle" style="object-fit: cover">
                                 </div>
                                 <div class="col-md-6 text-right">
                                     <span class="badge badge-info no-border-radius">Tersedia</span>
@@ -571,7 +571,7 @@
             <div class="container-fluid">
                 <div class="row text-dark">
                     <div class="col-md-2">
-                        <img src="${gambar}" class="rounded-circle" width="80px" alt="Gambar Dosen">
+                        <img src="${gambar}" class="rounded-circle" width="80px" height="80px" alt="Gambar Dosen" style="object-fit: cover">
                     </div>
                     <div class="col-md-10">
                         <div class="row">

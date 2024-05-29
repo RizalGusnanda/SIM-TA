@@ -753,7 +753,7 @@
                             <h5 style="font-size: 16px; color: #000; margin-bottom: 0px;" class="mt-2">Daftar Bimbingan
                                 Mahasiswa
                             </h5>
-                            <p style="font-size: 12px;" class="my-2">Silakan validasi mahasiswa yang mengajukan Anda
+                            <p style="font-size: 13px;" class="my-2">Silakan validasi mahasiswa yang mengajukan Anda
                                 sebagai pembimbing utama</p>
                         </div>
                         <div class="text-right">
@@ -767,8 +767,8 @@
                                     <tr>
                                         <th>
                                             <div class="d-flex justify-content-between">
-                                                <span>NO</span>
-                                                <span>
+                                                <span style="font-size: 14px;">NO</span>
+                                                <span style="font-size: 14px;">
                                                     <i class="fas fa-long-arrow-alt-up"></i>
                                                     <i class="fas fa-long-arrow-alt-down"></i>
                                                 </span>
@@ -776,8 +776,8 @@
                                         </th>
                                         <th>
                                             <div class="d-flex justify-content-between">
-                                                <span>Prodi</span>
-                                                <span>
+                                                <span style="font-size: 14px;">Prodi</span>
+                                                <span style="font-size: 14px;">
                                                     <i class="fas fa-long-arrow-alt-up"></i>
                                                     <i class="fas fa-long-arrow-alt-down"></i>
                                                 </span>
@@ -785,8 +785,8 @@
                                         </th>
                                         <th>
                                             <div class="d-flex justify-content-between">
-                                                <span>Nama Mahasiswa</span>
-                                                <span>
+                                                <span style="font-size: 14px;">Nama Mahasiswa</span>
+                                                <span style="font-size: 14px;">
                                                     <i class="fas fa-long-arrow-alt-up"></i>
                                                     <i class="fas fa-long-arrow-alt-down"></i>
                                                 </span>
@@ -794,8 +794,8 @@
                                         </th>
                                         <th>
                                             <div class="d-flex justify-content-between">
-                                                <span>Judul</span>
-                                                <span>
+                                                <span style="font-size: 14px;">Judul</span>
+                                                <span style="font-size: 14px;">
                                                     <i class="fas fa-long-arrow-alt-up"></i>
                                                     <i class="fas fa-long-arrow-alt-down"></i>
                                                 </span>
@@ -803,8 +803,8 @@
                                         </th>
                                         <th>
                                             <div class="d-flex justify-content-between">
-                                                <span>Pembimbing</span>
-                                                <span>
+                                                <span style="font-size: 14px;">Pembimbing</span>
+                                                <span style="font-size: 14px;">
                                                     <i class="fas fa-long-arrow-alt-up"></i>
                                                     <i class="fas fa-long-arrow-alt-down"></i>
                                                 </span>
@@ -812,18 +812,18 @@
                                         </th>
                                         <th>
                                             <div class="d-flex justify-content-between">
-                                                <span>Status</span>
-                                                <span>
+                                                <span style="font-size: 14px;">Status</span>
+                                                <span style="font-size: 14px;">
                                                     <i class="fas fa-long-arrow-alt-up"></i>
                                                     <i class="fas fa-long-arrow-alt-down"></i>
                                                 </span>
                                             </div>
                                         </th>
-                                        <th>Aksi</th>
+                                        <th style="font-size: 14px;">Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
+                                    <tr style="font-size: 14px;">
                                         <td>1</td>
                                         </td>
                                         <td>D-IV SIB</td>
@@ -849,7 +849,7 @@
                                             </div>
                                         </td>
                                     </tr>
-                                    <tr>
+                                    <tr style="font-size: 14px;">
                                         <td>2</td>
                                         <td>D-IV TI</td>
                                         <td>Putri Maulida</td>
@@ -894,7 +894,7 @@
                             <h5 style="font-size: 16px; color: #000; margin-bottom: 0px;" class="mt-2">Seminar Proposal
                                 Mahasiswa
                             </h5>
-                            <p style="font-size: 12px;" class="my-2">Silakan validasi mahasiswa yang mengajukan Anda
+                            <p style="font-size: 13px;" class="my-2">Silakan validasi mahasiswa yang mengajukan Anda
                                 sebagai pembimbing utama</p>
                         </div>
                         <div class="text-right">
@@ -908,8 +908,8 @@
                                     <tr>
                                         <th>
                                             <div class="d-flex justify-content-between">
-                                                <span>NO</span>
-                                                <span>
+                                                <span style="font-size: 14px;">NO</span>
+                                                <span style="font-size: 14px;">
                                                     <i class="fas fa-long-arrow-alt-up"></i>
                                                     <i class="fas fa-long-arrow-alt-down"></i>
                                                 </span>
@@ -917,8 +917,8 @@
                                         </th>
                                         <th>
                                             <div class="d-flex justify-content-between">
-                                                <span>Prodi</span>
-                                                <span>
+                                                <span style="font-size: 14px;">Prodi</span>
+                                                <span style="font-size: 14px;">
                                                     <i class="fas fa-long-arrow-alt-up"></i>
                                                     <i class="fas fa-long-arrow-alt-down"></i>
                                                 </span>
@@ -926,8 +926,8 @@
                                         </th>
                                         <th>
                                             <div class="d-flex justify-content-between">
-                                                <span>Nama Mahasiswa</span>
-                                                <span>
+                                                <span style="font-size: 14px;">Nama Mahasiswa</span>
+                                                <span style="font-size: 14px;">
                                                     <i class="fas fa-long-arrow-alt-up"></i>
                                                     <i class="fas fa-long-arrow-alt-down"></i>
                                                 </span>
@@ -935,8 +935,8 @@
                                         </th>
                                         <th>
                                             <div class="d-flex justify-content-between">
-                                                <span>Judul</span>
-                                                <span>
+                                                <span style="font-size: 14px;">Judul</span>
+                                                <span style="font-size: 14px;">
                                                     <i class="fas fa-long-arrow-alt-up"></i>
                                                     <i class="fas fa-long-arrow-alt-down"></i>
                                                 </span>
@@ -944,18 +944,18 @@
                                         </th>
                                         <th>
                                             <div class="d-flex justify-content-between">
-                                                <span>Status Penilaian</span>
-                                                <span>
+                                                <span style="font-size: 14px;">Status Penilaian</span>
+                                                <span style="font-size: 14px;">
                                                     <i class="fas fa-long-arrow-alt-up"></i>
                                                     <i class="fas fa-long-arrow-alt-down"></i>
                                                 </span>
                                             </div>
                                         </th>
-                                        <th>Aksi</th>
+                                        <th style="font-size: 14px;">Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
+                                    <tr style="font-size: 14px;">
                                         <td>1</td>
                                         <td>D-IV SIB</td>
                                         <td>Aisyah</td>
@@ -974,7 +974,7 @@
                                             </div>
                                         </td>
                                     </tr>
-                                    <tr>
+                                    <tr style="font-size: 14px;">
                                         <td>2</td>
                                         <td>D-IV SIB</td>
                                         <td>Putri Maulida</td>
@@ -1013,7 +1013,7 @@
                             <h5 style="font-size: 16px; color: #000; margin-bottom: 0px;" class="mt-2">Revisi Proposal
                                 Mahasiswa
                             </h5>
-                            <p style="font-size: 12px;" class="my-2">Silakan validasi hasil revisi proposal mahasiswa
+                            <p style="font-size: 13px;" class="my-2">Silakan validasi hasil revisi proposal mahasiswa
                             </p>
                         </div>
                         <div class="text-right">
@@ -1027,8 +1027,8 @@
                                     <tr>
                                         <th>
                                             <div class="d-flex justify-content-between">
-                                                <span>NO</span>
-                                                <span>
+                                                <span style="font-size: 14px;">NO</span>
+                                                <span style="font-size: 14px;">
                                                     <i class="fas fa-long-arrow-alt-up"></i>
                                                     <i class="fas fa-long-arrow-alt-down"></i>
                                                 </span>
@@ -1036,8 +1036,8 @@
                                         </th>
                                         <th>
                                             <div class="d-flex justify-content-between">
-                                                <span>Tanggal Submit</span>
-                                                <span>
+                                                <span style="font-size: 14px;">Tanggal Submit</span>
+                                                <span style="font-size: 14px;">
                                                     <i class="fas fa-long-arrow-alt-up"></i>
                                                     <i class="fas fa-long-arrow-alt-down"></i>
                                                 </span>
@@ -1045,8 +1045,8 @@
                                         </th>
                                         <th>
                                             <div class="d-flex justify-content-between">
-                                                <span>Prodi</span>
-                                                <span>
+                                                <span style="font-size: 14px;">Prodi</span>
+                                                <span style="font-size: 14px;">
                                                     <i class="fas fa-long-arrow-alt-up"></i>
                                                     <i class="fas fa-long-arrow-alt-down"></i>
                                                 </span>
@@ -1054,8 +1054,8 @@
                                         </th>
                                         <th>
                                             <div class="d-flex justify-content-between">
-                                                <span>Nama Mahasiswa</span>
-                                                <span>
+                                                <span style="font-size: 14px;">Nama Mahasiswa</span>
+                                                <span style="font-size: 14px;">
                                                     <i class="fas fa-long-arrow-alt-up"></i>
                                                     <i class="fas fa-long-arrow-alt-down"></i>
                                                 </span>
@@ -1063,8 +1063,8 @@
                                         </th>
                                         <th>
                                             <div class="d-flex justify-content-between">
-                                                <span>Judul</span>
-                                                <span>
+                                                <span style="font-size: 14px;">Judul</span>
+                                                <span style="font-size: 14px;">
                                                     <i class="fas fa-long-arrow-alt-up"></i>
                                                     <i class="fas fa-long-arrow-alt-down"></i>
                                                 </span>
@@ -1072,18 +1072,18 @@
                                         </th>
                                         <th>
                                             <div class="d-flex justify-content-between">
-                                                <span>Status</span>
-                                                <span>
+                                                <span style="font-size: 14px;">Status</span>
+                                                <span style="font-size: 14px;">
                                                     <i class="fas fa-long-arrow-alt-up"></i>
                                                     <i class="fas fa-long-arrow-alt-down"></i>
                                                 </span>
                                             </div>
                                         </th>
-                                        <th>Aksi</th>
+                                        <th style="font-size: 14px;">Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
+                                    <tr style="font-size: 14px;">
                                         <td>1</td>
                                         <td>2023 - 12 - 20</td>
                                         <td>D-IV SIB</td>
@@ -1122,7 +1122,7 @@
                             <h5 style="font-size: 16px; color: #000; margin-bottom: 0px;" class="mt-2">Validasi Proposal
                                 Mahasiswa
                             </h5>
-                            <p style="font-size: 12px;" class="my-2">Silakan validasi revisi proposal final mahasiswa
+                            <p style="font-size: 13px;" class="my-2">Silakan validasi revisi proposal final mahasiswa
                             </p>
                         </div>
                         <div class="text-right">
@@ -1136,8 +1136,8 @@
                                     <tr>
                                         <th>
                                             <div class="d-flex justify-content-between">
-                                                <span>NO</span>
-                                                <span>
+                                                <span style="font-size: 14px;">NO</span>
+                                                <span style="font-size: 14px;">
                                                     <i class="fas fa-long-arrow-alt-up"></i>
                                                     <i class="fas fa-long-arrow-alt-down"></i>
                                                 </span>
@@ -1145,8 +1145,8 @@
                                         </th>
                                         <th>
                                             <div class="d-flex justify-content-between">
-                                                <span>Tanggal Submit</span>
-                                                <span>
+                                                <span style="font-size: 14px;">Tanggal Submit</span>
+                                                <span style="font-size: 14px;">
                                                     <i class="fas fa-long-arrow-alt-up"></i>
                                                     <i class="fas fa-long-arrow-alt-down"></i>
                                                 </span>
@@ -1154,8 +1154,8 @@
                                         </th>
                                         <th>
                                             <div class="d-flex justify-content-between">
-                                                <span>Prodi</span>
-                                                <span>
+                                                <span style="font-size: 14px;">Prodi</span>
+                                                <span style="font-size: 14px;">
                                                     <i class="fas fa-long-arrow-alt-up"></i>
                                                     <i class="fas fa-long-arrow-alt-down"></i>
                                                 </span>
@@ -1163,8 +1163,8 @@
                                         </th>
                                         <th>
                                             <div class="d-flex justify-content-between">
-                                                <span>Nama Mahasiswa</span>
-                                                <span>
+                                                <span style="font-size: 14px;">Nama Mahasiswa</span>
+                                                <span style="font-size: 14px;">
                                                     <i class="fas fa-long-arrow-alt-up"></i>
                                                     <i class="fas fa-long-arrow-alt-down"></i>
                                                 </span>
@@ -1172,8 +1172,8 @@
                                         </th>
                                         <th>
                                             <div class="d-flex justify-content-between">
-                                                <span>Judul</span>
-                                                <span>
+                                                <span style="font-size: 14px;">Judul</span>
+                                                <span style="font-size: 14px;">
                                                     <i class="fas fa-long-arrow-alt-up"></i>
                                                     <i class="fas fa-long-arrow-alt-down"></i>
                                                 </span>
@@ -1181,18 +1181,18 @@
                                         </th>
                                         <th>
                                             <div class="d-flex justify-content-between">
-                                                <span>Status</span>
-                                                <span>
+                                                <span style="font-size: 14px;">Status</span>
+                                                <span style="font-size: 14px;">
                                                     <i class="fas fa-long-arrow-alt-up"></i>
                                                     <i class="fas fa-long-arrow-alt-down"></i>
                                                 </span>
                                             </div>
                                         </th>
-                                        <th>Aksi</th>
+                                        <th style="font-size: 14px;">Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
+                                    <tr style="font-size: 14px;">
                                         <td>1</td>
                                         <td>2023 - 12 - 20</td>
                                         <td>D-IV SIB</td>

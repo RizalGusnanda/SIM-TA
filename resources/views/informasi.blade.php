@@ -228,8 +228,8 @@
                                 </p>
                                 <div class="row mb-3">
                                     <div class="col-md-2">
-                                        <img alt="image" width="70px;"
-                                            src="{{ asset('/assets/img/avatar/avatar-1.png') }}" class="rounded-circle">
+                                        <img alt="image" width="70px;" height="70px;"
+                                            src="{{ asset('/assets/img/avatar/ade.jpeg') }}" class="rounded-circle" style="object-fit: cover">
                                     </div>
                                     <div class="col-md-10 align-content-center">
                                         <p class="text-dark medium">Ade Ismail S.Kom., M.TI</p>
@@ -266,8 +266,8 @@
                                 </p>
                                 <div class="row mb-3">
                                     <div class="col-md-2">
-                                        <img alt="image" width="70px;"
-                                            src="{{ asset('/assets/img/avatar/avatar-1.png') }}" class="rounded-circle">
+                                        <img alt="image" width="70px;" height="70px;"
+                                            src="{{ asset('/assets/img/avatar/ade.jpeg') }}" class="rounded-circle" style="object-fit: cover">
                                     </div>
                                     <div class="col-md-10 align-content-center">
                                         <p class="text-dark medium">Ade Ismail S.Kom., M.TI</p>
@@ -323,8 +323,8 @@
                                 </p>
                                 <div class="row mb-3">
                                     <div class="col-md-2">
-                                        <img alt="image" width="70px;"
-                                            src="{{ asset('/assets/img/avatar/avatar-1.png') }}" class="rounded-circle">
+                                        <img alt="image" width="70px;" height="70px;"
+                                            src="{{ asset('/assets/img/avatar/ade.jpeg') }}" class="rounded-circle" style="object-fit: cover">
                                     </div>
                                     <div class="col-md-10 align-content-center">
                                         <p class="text-dark medium">Ade Ismail S.Kom., M.TI</p>
@@ -361,8 +361,8 @@
                                 </p>
                                 <div class="row mb-3">
                                     <div class="col-md-2">
-                                        <img alt="image" width="70px;"
-                                            src="{{ asset('/assets/img/avatar/avatar-1.png') }}" class="rounded-circle">
+                                        <img alt="image" width="70px;" height="70px;"
+                                            src="{{ asset('/assets/img/avatar/rosa.jpeg') }}" class="rounded-circle" style="object-fit: cover">
                                     </div>
                                     <div class="col-md-10 align-content-center">
                                         <p class="text-dark medium">Dr. Eng. Rosa Andrie Asmara, ST., MT.</p>

@@ -145,8 +145,8 @@
                         <p class="mb-2 text-dark bold">Sistem Manajemen Aset Server Jurusan Teknologi Informasi </p>
                         <div class="row mb-3">
                             <div class="col-md-2">
-                                <img alt="image" width="70px;" src="{{ asset('/assets/img/avatar/avatar-1.png') }}"
-                                    class="rounded-circle">
+                                <img alt="image" width="70px;" height="70px" src="{{ asset('/assets/img/avatar/ade.jpeg') }}"
+                                    class="rounded-circle" style="object-fit: cover">
                             </div>
                             <div class="col-md-10 align-content-center">
                                 <p class="text-dark medium">Ade Ismail S.Kom., M.TI</p>
@@ -180,8 +180,8 @@
                         <p class="mb-2 text-dark bold">SQLearn Platform Pembelajaran SQL 2024 Topik 3</p>
                         <div class="row mb-3">
                             <div class="col-md-2">
-                                <img alt="image" width="70px;" src="{{ asset('/assets/img/avatar/avatar-1.png') }}"
-                                    class="rounded-circle">
+                                <img alt="image" width="70px;" height="70px" src="{{ asset('/assets/img/avatar/Annisa taufika.jpg') }}"
+                                    class="rounded-circle" style="object-fit: cover">
                             </div>
                             <div class="col-md-10 align-content-center">
                                 <p class="text-dark medium">Annisa Taufika Firdausi, ST., MT.</p>
@@ -215,8 +215,8 @@
                         <p class="mb-2 text-dark bold">SQLearn Platform Pembelajaran SQL 2024 Topik 4</p>
                         <div class="row mb-3">
                             <div class="col-md-2">
-                                <img alt="image" width="70px;" src="{{ asset('/assets/img/avatar/avatar-1.png') }}"
-                                    class="rounded-circle">
+                                <img alt="image" width="70px;" height="70px" src="{{ asset('/assets/img/avatar/Annisa taufika.jpg') }}"
+                                    class="rounded-circle" style="object-fit: cover">
                             </div>
                             <div class="col-md-10 align-content-center">
                                 <p class="text-dark medium">Annisa Taufika Firdausi, ST., MT.</p>
@@ -250,8 +250,8 @@
                         <p class="mb-2 text-dark bold">Sistem Informasi E-Office</p>
                         <div class="row mb-3">
                             <div class="col-md-2">
-                                <img alt="image" width="70px;" src="{{ asset('/assets/img/avatar/avatar-1.png') }}"
-                                    class="rounded-circle">
+                                <img alt="image" width="70px;" height="70px" src="{{ asset('/assets/img/avatar/dimas wahyu.jpeg') }}"
+                                    class="rounded-circle" style="object-fit: cover">
                             </div>
                             <div class="col-md-10 align-content-center">
                                 <p class="text-dark medium">Moch Zawaruddin Abdullah, S.ST., M.Kom.</p>
@@ -285,8 +285,8 @@
                         <p class="mb-2 text-dark bold">Sistem Informasi RPS dan SAP</p>
                         <div class="row mb-3">
                             <div class="col-md-2">
-                                <img alt="image" width="70px;" src="{{ asset('/assets/img/avatar/avatar-1.png') }}"
-                                    class="rounded-circle">
+                                <img alt="image" width="70px;" height="70px" src="{{ asset('/assets/img/avatar/ade.jpeg') }}"
+                                    class="rounded-circle" style="object-fit: cover">
                             </div>
                             <div class="col-md-10 align-content-center">
                                 <p class="text-dark medium">Ade Ismail S.Kom., M.TI</p>
@@ -320,8 +320,8 @@
                         <p class="mb-2 text-dark bold">SIB : Sistem Informasi Repository </p>
                         <div class="row mb-3">
                             <div class="col-md-2">
-                                <img alt="image" width="70px;" src="{{ asset('/assets/img/avatar/avatar-1.png') }}"
-                                    class="rounded-circle">
+                                <img alt="image" width="70px;" height="70px" src="{{ asset('/assets/img/avatar/mungki.png') }}"
+                                    class="rounded-circle" style="object-fit: cover">
                             </div>
                             <div class="col-md-10 align-content-center">
                                 <p class="text-dark medium">Mungki Astiningrum, ST., M.Kom.</p>

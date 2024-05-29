@@ -91,10 +91,18 @@
                                 ">
                                         <div class="d-flex align-items-center">
                                             <div style="position: relative;">
-                                                <img alt="image" width="100px;"
-                                                    src="{{ asset('/assets/img/avatar/avatar-1.png') }}"
-                                                    class="rounded-circle" style="margin-right: 40px;">
+                                                @role('user')
+                                                <img alt="image" width="100px;" height="100px;"
+                                                    src="{{ asset('/assets/img/avatar/aisyah.jpg') }}"
+                                                    class="rounded-circle" style="margin-right: 40px; object-fit: cover">
                                                 <div class="overlay-circle"></div>
+                                                @endrole
+                                                @role('super-admin')
+                                                <img alt="image" width="100px;" height="100px;"
+                                                    src="{{ asset('/assets/img/avatar/rosa.jpeg') }}"
+                                                    class="rounded-circle" style="margin-right: 40px; object-fit: cover">
+                                                <div class="overlay-circle"></div>
+                                                @endrole
                                             </div>
                                             <div>
                                                 @role('user')
